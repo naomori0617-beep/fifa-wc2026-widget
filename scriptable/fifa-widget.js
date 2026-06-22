@@ -9,9 +9,9 @@
 // 対応サイズ: 小 / 中 / 大
 // ===================================================================
 
-// ▼▼▼ ここだけ自分の URL に書き換える ▼▼▼
-const DATA_URL = "https://USERNAME.github.io/REPO/data.json";
-// ▲▲▲ 例: https://naomori.github.io/fifa-wc2026-widget/data.json ▲▲▲
+// ▼▼▼ このリポジトリの GitHub Pages の data.json（設定済み） ▼▼▼
+const DATA_URL = "https://naomori0617-beep.github.io/fifa-wc2026-widget/data.json";
+// ▲▲▲ 別リポジトリに移す場合はここを書き換える ▲▲▲
 
 // ----- 色・スタイル -----
 const COLORS = {
