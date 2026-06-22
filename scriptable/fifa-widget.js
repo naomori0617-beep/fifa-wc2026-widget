@@ -71,8 +71,8 @@ function fmtTime(iso) {
 }
 
 function metaText(m) {
-  const venue = m.stadium ? (m.city ? `${m.stadium}（${m.city}）` : m.stadium) : null;
-  return [m.stage, m.group, venue].filter(Boolean).join("　・　");
+  const venue = m.city || m.stadium || null; // 会場は都市名のみ（長いので）
+  return [m.stage, m.group, venue].filter(Boolean).join(" ・ ");
 }
 
 function pickNext(data) {
@@ -87,29 +87,29 @@ async function drawMatch(w, m, sz) {
   block.layoutVertically();
   block.spacing = sz.gap;
 
-  // 日付（上段・中央・控えめ）
-  centerText(block, fmtDate(m.date), Font.systemFont(sz.date), m.status === "live" ? C.red : C.sub);
+  // 日付（上段・中央・控えめ。縮小はしない）
+  centerText(block, fmtDate(m.date), Font.systemFont(sz.date), m.status === "live" ? C.red : C.sub, 1);
 
-  // 対戦カード：[国名 旗]  時刻  [旗 国名]（時刻を中央固定）
+  // 対戦カード：[国名 旗] (gap) 時刻 (gap) [旗 国名]
+  // 左右を同じ固定幅にし、外側の可変スペーサーで全体を中央寄せ → 時刻が常に中央
   const row = block.addStack();
   row.centerAlignContent();
+  row.addSpacer();
 
   const home = row.addStack();
   home.size = new Size(sz.side, 0);
   home.centerAlignContent();
-  home.addSpacer();
+  home.addSpacer(); // 内容を中央側（右端）へ寄せる
   addName(home, m.home.name, sz);
   home.addSpacer(sz.flagGap);
   await addFlag(home, m.home.flag, sz);
 
-  const center = row.addStack();
-  center.size = new Size(sz.center, 0);
-  center.centerAlignContent();
-  center.addSpacer();
-  const ko = center.addText(m.status === "live" ? "LIVE" : fmtTime(m.date));
+  row.addSpacer(sz.koGap);
+  const ko = row.addText(m.status === "live" ? "LIVE" : fmtTime(m.date));
   ko.font = Font.mediumSystemFont(sz.time);
   ko.textColor = m.status === "live" ? C.red : C.time;
-  center.addSpacer();
+  ko.lineLimit = 1;
+  row.addSpacer(sz.koGap);
 
   const away = row.addStack();
   away.size = new Size(sz.side, 0);
@@ -117,11 +117,13 @@ async function drawMatch(w, m, sz) {
   await addFlag(away, m.away.flag, sz);
   away.addSpacer(sz.flagGap);
   addName(away, m.away.name, sz);
-  away.addSpacer();
+  away.addSpacer(); // 内容を中央側（左端）へ寄せる
 
-  // メタ（ステージ・グループ・会場）
+  row.addSpacer();
+
+  // メタ（ステージ・グループ・都市）
   const meta = metaText(m);
-  if (meta) centerText(block, meta, Font.systemFont(sz.meta), C.sub);
+  if (meta) centerText(block, meta, Font.systemFont(sz.meta), C.sub, 0.7);
 }
 
 function addName(stack, name, sz) {
@@ -129,7 +131,7 @@ function addName(stack, name, sz) {
   t.font = Font.systemFont(sz.name);
   t.textColor = C.text;
   t.lineLimit = 1;
-  t.minimumScaleFactor = 0.6;
+  t.minimumScaleFactor = 0.7; // 長い国名のみ少し縮小
 }
 
 async function addFlag(stack, url, sz) {
@@ -147,14 +149,14 @@ async function addFlag(stack, url, sz) {
   }
 }
 
-function centerText(container, text, font, color) {
+function centerText(container, text, font, color, scale = 1) {
   const r = container.addStack();
   r.addSpacer();
   const t = r.addText(text);
   t.font = font;
   t.textColor = color;
   t.lineLimit = 1;
-  t.minimumScaleFactor = 0.6;
+  t.minimumScaleFactor = scale;
   t.centerAlignText();
   r.addSpacer();
 }
@@ -171,9 +173,10 @@ function divider(w, sz) {
 // ----- サイズ別パラメータ -----
 function sizeParams(family) {
   if (family === "small") {
-    return { date: 9, name: 11, time: 15, meta: 7.5, flagW: 22, flagH: 15, flagGap: 4, side: 70, center: 44, gap: 4, blockGap: 7, pad: 11 };
+    return { date: 9, name: 10, time: 14, meta: 7.5, flagW: 20, flagH: 13, flagGap: 4, side: 60, koGap: 6, gap: 4, blockGap: 7, pad: 10 };
   }
-  return { date: 11, name: 15, time: 20, meta: 9.5, flagW: 32, flagH: 21, flagGap: 7, side: 120, center: 64, gap: 6, blockGap: 12, pad: 14 };
+  // medium / large（幅は同じ）
+  return { date: 11, name: 14, time: 19, meta: 9.5, flagW: 28, flagH: 19, flagGap: 6, side: 116, koGap: 10, gap: 6, blockGap: 12, pad: 12 };
 }
 
 // ===================================================================
