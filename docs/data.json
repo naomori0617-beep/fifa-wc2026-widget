@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T04:59:25.133Z",
+  "updated": "2026-06-22T18:54:00.646Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1048,21 +1048,21 @@
       "id": "400021494",
       "date": "2026-06-22T17:00:00Z",
       "localDate": "2026-06-22T12:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "1st ステージ",
       "group": "グループ J",
       "matchday": null,
       "home": {
         "name": "アルゼンチン",
         "code": "ARG",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
       },
       "away": {
         "name": "オーストリア",
         "code": "AUT",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUT"
       },
       "homePens": null,
