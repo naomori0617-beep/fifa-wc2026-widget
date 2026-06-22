@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T04:45:49.114Z",
+  "updated": "2026-06-22T04:59:25.133Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -27,7 +27,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "メキシコシティスタジアム"
+      "stadium": "メキシコシティスタジアム",
+      "city": "メキシコシティ"
     },
     {
       "id": "400021441",
@@ -52,7 +53,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "グアダラハラスタジアム"
+      "stadium": "グアダラハラスタジアム",
+      "city": "グアダラハラ"
     },
     {
       "id": "400021449",
@@ -77,7 +79,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "トロントスタジアム"
+      "stadium": "トロントスタジアム",
+      "city": "トロント"
     },
     {
       "id": "400021458",
@@ -102,7 +105,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ロサンゼルススタジアム"
+      "stadium": "ロサンゼルススタジアム",
+      "city": "ロサンゼルス"
     },
     {
       "id": "400021447",
@@ -127,7 +131,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "サンフランシスコベイエリアスタジアム"
+      "stadium": "サンフランシスコベイエリアスタジアム",
+      "city": "サンフランシスコ・ベイエリア"
     },
     {
       "id": "400021456",
@@ -152,7 +157,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ニューヨーク/ニュージャージースタジアム"
+      "stadium": "ニューヨーク/ニュージャージースタジアム",
+      "city": "ニュー・ジャージー州"
     },
     {
       "id": "400021453",
@@ -177,7 +183,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ボストンスタジアム"
+      "stadium": "ボストンスタジアム",
+      "city": "ボストン"
     },
     {
       "id": "400021463",
@@ -202,7 +209,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "BCプレイスバンクーバー"
+      "stadium": "BCプレイスバンクーバー",
+      "city": "バンクーバー"
     },
     {
       "id": "400021464",
@@ -227,7 +235,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ヒューストンスタジアム"
+      "stadium": "ヒューストンスタジアム",
+      "city": "ヒューストン"
     },
     {
       "id": "400021470",
@@ -252,7 +261,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ダラススタジアム"
+      "stadium": "ダラススタジアム",
+      "city": "ダラス"
     },
     {
       "id": "400021467",
@@ -277,7 +287,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "フィラデルフィアスタジアム"
+      "stadium": "フィラデルフィアスタジアム",
+      "city": "フィラデルフィア"
     },
     {
       "id": "400021474",
@@ -302,7 +313,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "モンテレースタジアム"
+      "stadium": "モンテレースタジアム",
+      "city": "モンテレイ"
     },
     {
       "id": "400021482",
@@ -327,7 +339,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "アトランタスタジアム"
+      "stadium": "アトランタスタジアム",
+      "city": "アトランタ"
     },
     {
       "id": "400021478",
@@ -352,7 +365,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "シアトルスタジアム"
+      "stadium": "シアトルスタジアム",
+      "city": "シアトル"
     },
     {
       "id": "400021486",
@@ -377,7 +391,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "マイアミスタジアム"
+      "stadium": "マイアミスタジアム",
+      "city": "マイアミ"
     },
     {
       "id": "400021476",
@@ -402,7 +417,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ロサンゼルススタジアム"
+      "stadium": "ロサンゼルススタジアム",
+      "city": "ロサンゼルス"
     },
     {
       "id": "400021490",
@@ -427,7 +443,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ニューヨーク/ニュージャージースタジアム"
+      "stadium": "ニューヨーク/ニュージャージースタジアム",
+      "city": "ニュー・ジャージー州"
     },
     {
       "id": "400021488",
@@ -452,7 +469,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ボストンスタジアム"
+      "stadium": "ボストンスタジアム",
+      "city": "ボストン"
     },
     {
       "id": "400021496",
@@ -477,7 +495,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "カンザスシティスタジアム"
+      "stadium": "カンザスシティスタジアム",
+      "city": "カンザスシティ"
     },
     {
       "id": "400021498",
@@ -502,7 +521,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "サンフランシスコベイエリアスタジアム"
+      "stadium": "サンフランシスコベイエリアスタジアム",
+      "city": "サンフランシスコ・ベイエリア"
     },
     {
       "id": "400021502",
@@ -527,7 +547,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ヒューストンスタジアム"
+      "stadium": "ヒューストンスタジアム",
+      "city": "ヒューストン"
     },
     {
       "id": "400021507",
@@ -552,7 +573,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ダラススタジアム"
+      "stadium": "ダラススタジアム",
+      "city": "ダラス"
     },
     {
       "id": "400021510",
@@ -577,7 +599,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "トロントスタジアム"
+      "stadium": "トロントスタジアム",
+      "city": "トロント"
     },
     {
       "id": "400021504",
@@ -602,7 +625,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "メキシコシティスタジアム"
+      "stadium": "メキシコシティスタジアム",
+      "city": "メキシコシティ"
     },
     {
       "id": "400021440",
@@ -627,7 +651,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "アトランタスタジアム"
+      "stadium": "アトランタスタジアム",
+      "city": "アトランタ"
     },
     {
       "id": "400021446",
@@ -652,7 +677,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ロサンゼルススタジアム"
+      "stadium": "ロサンゼルススタジアム",
+      "city": "ロサンゼルス"
     },
     {
       "id": "400021450",
@@ -677,7 +703,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "BCプレイスバンクーバー"
+      "stadium": "BCプレイスバンクーバー",
+      "city": "バンクーバー"
     },
     {
       "id": "400021442",
@@ -702,7 +729,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "グアダラハラスタジアム"
+      "stadium": "グアダラハラスタジアム",
+      "city": "グアダラハラ"
     },
     {
       "id": "400021462",
@@ -727,7 +755,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "シアトルスタジアム"
+      "stadium": "シアトルスタジアム",
+      "city": "シアトル"
     },
     {
       "id": "400021454",
@@ -752,7 +781,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ボストンスタジアム"
+      "stadium": "ボストンスタジアム",
+      "city": "ボストン"
     },
     {
       "id": "400021457",
@@ -777,7 +807,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "フィラデルフィアスタジアム"
+      "stadium": "フィラデルフィアスタジアム",
+      "city": "フィラデルフィア"
     },
     {
       "id": "400021460",
@@ -802,7 +833,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "サンフランシスコベイエリアスタジアム"
+      "stadium": "サンフランシスコベイエリアスタジアム",
+      "city": "サンフランシスコ・ベイエリア"
     },
     {
       "id": "400021472",
@@ -827,7 +859,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ヒューストンスタジアム"
+      "stadium": "ヒューストンスタジアム",
+      "city": "ヒューストン"
     },
     {
       "id": "400021469",
@@ -852,7 +885,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "トロントスタジアム"
+      "stadium": "トロントスタジアム",
+      "city": "トロント"
     },
     {
       "id": "400021465",
@@ -877,7 +911,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "カンザスシティスタジアム"
+      "stadium": "カンザスシティスタジアム",
+      "city": "カンザスシティ"
     },
     {
       "id": "400021475",
@@ -902,7 +937,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "モンテレースタジアム"
+      "stadium": "モンテレースタジアム",
+      "city": "モンテレイ"
     },
     {
       "id": "400021483",
@@ -927,7 +963,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "アトランタスタジアム"
+      "stadium": "アトランタスタジアム",
+      "city": "アトランタ"
     },
     {
       "id": "400021477",
@@ -952,7 +989,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ロサンゼルススタジアム"
+      "stadium": "ロサンゼルススタジアム",
+      "city": "ロサンゼルス"
     },
     {
       "id": "400021487",
@@ -977,7 +1015,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "マイアミスタジアム"
+      "stadium": "マイアミスタジアム",
+      "city": "マイアミ"
     },
     {
       "id": "400021480",
@@ -1002,7 +1041,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "BCプレイスバンクーバー"
+      "stadium": "BCプレイスバンクーバー",
+      "city": "バンクーバー"
     },
     {
       "id": "400021494",
@@ -1027,7 +1067,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ダラススタジアム"
+      "stadium": "ダラススタジアム",
+      "city": "ダラス"
     },
     {
       "id": "400021492",
@@ -1052,7 +1093,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "フィラデルフィアスタジアム"
+      "stadium": "フィラデルフィアスタジアム",
+      "city": "フィラデルフィア"
     },
     {
       "id": "400021491",
@@ -1077,7 +1119,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ニューヨーク/ニュージャージースタジアム"
+      "stadium": "ニューヨーク/ニュージャージースタジアム",
+      "city": "ニュー・ジャージー州"
     },
     {
       "id": "400021499",
@@ -1102,7 +1145,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "サンフランシスコベイエリアスタジアム"
+      "stadium": "サンフランシスコベイエリアスタジアム",
+      "city": "サンフランシスコ・ベイエリア"
     },
     {
       "id": "400021503",
@@ -1127,7 +1171,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ヒューストンスタジアム"
+      "stadium": "ヒューストンスタジアム",
+      "city": "ヒューストン"
     },
     {
       "id": "400021506",
@@ -1152,7 +1197,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ボストンスタジアム"
+      "stadium": "ボストンスタジアム",
+      "city": "ボストン"
     },
     {
       "id": "400021511",
@@ -1177,7 +1223,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "トロントスタジアム"
+      "stadium": "トロントスタジアム",
+      "city": "トロント"
     },
     {
       "id": "400021501",
@@ -1202,7 +1249,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "グアダラハラスタジアム"
+      "stadium": "グアダラハラスタジアム",
+      "city": "グアダラハラ"
     },
     {
       "id": "400021448",
@@ -1227,7 +1275,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "シアトルスタジアム"
+      "stadium": "シアトルスタジアム",
+      "city": "シアトル"
     },
     {
       "id": "400021451",
@@ -1252,7 +1301,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "BCプレイスバンクーバー"
+      "stadium": "BCプレイスバンクーバー",
+      "city": "バンクーバー"
     },
     {
       "id": "400021452",
@@ -1277,7 +1327,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "アトランタスタジアム"
+      "stadium": "アトランタスタジアム",
+      "city": "アトランタ"
     },
     {
       "id": "400021455",
@@ -1302,7 +1353,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "マイアミスタジアム"
+      "stadium": "マイアミスタジアム",
+      "city": "マイアミ"
     },
     {
       "id": "400021445",
@@ -1327,7 +1379,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "モンテレースタジアム"
+      "stadium": "モンテレースタジアム",
+      "city": "モンテレイ"
     },
     {
       "id": "400021444",
@@ -1352,7 +1405,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "メキシコシティスタジアム"
+      "stadium": "メキシコシティスタジアム",
+      "city": "メキシコシティ"
     },
     {
       "id": "400021468",
@@ -1377,7 +1431,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "フィラデルフィアスタジアム"
+      "stadium": "フィラデルフィアスタジアム",
+      "city": "フィラデルフィア"
     },
     {
       "id": "400021466",
@@ -1402,7 +1457,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ニューヨーク/ニュージャージースタジアム"
+      "stadium": "ニューヨーク/ニュージャージースタジアム",
+      "city": "ニュー・ジャージー州"
     },
     {
       "id": "400021473",
@@ -1427,7 +1483,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "カンザスシティスタジアム"
+      "stadium": "カンザスシティスタジアム",
+      "city": "カンザスシティ"
     },
     {
       "id": "400021471",
@@ -1452,7 +1509,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ダラススタジアム"
+      "stadium": "ダラススタジアム",
+      "city": "ダラス"
     },
     {
       "id": "400021461",
@@ -1477,7 +1535,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "サンフランシスコベイエリアスタジアム"
+      "stadium": "サンフランシスコベイエリアスタジアム",
+      "city": "サンフランシスコ・ベイエリア"
     },
     {
       "id": "400021459",
@@ -1502,7 +1561,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ロサンゼルススタジアム"
+      "stadium": "ロサンゼルススタジアム",
+      "city": "ロサンゼルス"
     },
     {
       "id": "400021493",
@@ -1527,7 +1587,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "トロントスタジアム"
+      "stadium": "トロントスタジアム",
+      "city": "トロント"
     },
     {
       "id": "400021489",
@@ -1552,7 +1613,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ボストンスタジアム"
+      "stadium": "ボストンスタジアム",
+      "city": "ボストン"
     },
     {
       "id": "400021484",
@@ -1577,7 +1639,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "グアダラハラスタジアム"
+      "stadium": "グアダラハラスタジアム",
+      "city": "グアダラハラ"
     },
     {
       "id": "400021485",
@@ -1602,7 +1665,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ヒューストンスタジアム"
+      "stadium": "ヒューストンスタジアム",
+      "city": "ヒューストン"
     },
     {
       "id": "400021481",
@@ -1627,7 +1691,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "BCプレイスバンクーバー"
+      "stadium": "BCプレイスバンクーバー",
+      "city": "バンクーバー"
     },
     {
       "id": "400021479",
@@ -1652,7 +1717,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "シアトルスタジアム"
+      "stadium": "シアトルスタジアム",
+      "city": "シアトル"
     },
     {
       "id": "400021508",
@@ -1677,7 +1743,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ニューヨーク/ニュージャージースタジアム"
+      "stadium": "ニューヨーク/ニュージャージースタジアム",
+      "city": "ニュー・ジャージー州"
     },
     {
       "id": "400021509",
@@ -1702,7 +1769,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "フィラデルフィアスタジアム"
+      "stadium": "フィラデルフィアスタジアム",
+      "city": "フィラデルフィア"
     },
     {
       "id": "400021500",
@@ -1727,7 +1795,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "アトランタスタジアム"
+      "stadium": "アトランタスタジアム",
+      "city": "アトランタ"
     },
     {
       "id": "400021505",
@@ -1752,7 +1821,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "マイアミスタジアム"
+      "stadium": "マイアミスタジアム",
+      "city": "マイアミ"
     },
     {
       "id": "400021497",
@@ -1777,7 +1847,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "カンザスシティスタジアム"
+      "stadium": "カンザスシティスタジアム",
+      "city": "カンザスシティ"
     },
     {
       "id": "400021495",
@@ -1802,7 +1873,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ダラススタジアム"
+      "stadium": "ダラススタジアム",
+      "city": "ダラス"
     },
     {
       "id": "400021518",
@@ -1827,7 +1899,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ロサンゼルススタジアム"
+      "stadium": "ロサンゼルススタジアム",
+      "city": "ロサンゼルス"
     },
     {
       "id": "400021516",
@@ -1852,7 +1925,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ヒューストンスタジアム"
+      "stadium": "ヒューストンスタジアム",
+      "city": "ヒューストン"
     },
     {
       "id": "400021513",
@@ -1877,7 +1951,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ボストンスタジアム"
+      "stadium": "ボストンスタジアム",
+      "city": "ボストン"
     },
     {
       "id": "400021522",
@@ -1902,7 +1977,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "モンテレースタジアム"
+      "stadium": "モンテレースタジアム",
+      "city": "モンテレイ"
     },
     {
       "id": "400021514",
@@ -1927,7 +2003,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ダラススタジアム"
+      "stadium": "ダラススタジアム",
+      "city": "ダラス"
     },
     {
       "id": "400021523",
@@ -1952,7 +2029,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ニューヨーク/ニュージャージースタジアム"
+      "stadium": "ニューヨーク/ニュージャージースタジアム",
+      "city": "ニュー・ジャージー州"
     },
     {
       "id": "400021520",
@@ -1977,7 +2055,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "メキシコシティスタジアム"
+      "stadium": "メキシコシティスタジアム",
+      "city": "メキシコシティ"
     },
     {
       "id": "400021512",
@@ -2002,7 +2081,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "アトランタスタジアム"
+      "stadium": "アトランタスタジアム",
+      "city": "アトランタ"
     },
     {
       "id": "400021525",
@@ -2027,7 +2107,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "シアトルスタジアム"
+      "stadium": "シアトルスタジアム",
+      "city": "シアトル"
     },
     {
       "id": "400021524",
@@ -2052,7 +2133,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "サンフランシスコベイエリアスタジアム"
+      "stadium": "サンフランシスコベイエリアスタジアム",
+      "city": "サンフランシスコ・ベイエリア"
     },
     {
       "id": "400021519",
@@ -2077,7 +2159,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ロサンゼルススタジアム"
+      "stadium": "ロサンゼルススタジアム",
+      "city": "ロサンゼルス"
     },
     {
       "id": "400021526",
@@ -2102,7 +2185,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "トロントスタジアム"
+      "stadium": "トロントスタジアム",
+      "city": "トロント"
     },
     {
       "id": "400021527",
@@ -2127,7 +2211,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "BCプレイスバンクーバー"
+      "stadium": "BCプレイスバンクーバー",
+      "city": "バンクーバー"
     },
     {
       "id": "400021515",
@@ -2152,7 +2237,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ダラススタジアム"
+      "stadium": "ダラススタジアム",
+      "city": "ダラス"
     },
     {
       "id": "400021521",
@@ -2177,7 +2263,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "マイアミスタジアム"
+      "stadium": "マイアミスタジアム",
+      "city": "マイアミ"
     },
     {
       "id": "400021517",
@@ -2202,7 +2289,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "カンザスシティスタジアム"
+      "stadium": "カンザスシティスタジアム",
+      "city": "カンザスシティ"
     },
     {
       "id": "400021530",
@@ -2227,7 +2315,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ヒューストンスタジアム"
+      "stadium": "ヒューストンスタジアム",
+      "city": "ヒューストン"
     },
     {
       "id": "400021533",
@@ -2252,7 +2341,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "フィラデルフィアスタジアム"
+      "stadium": "フィラデルフィアスタジアム",
+      "city": "フィラデルフィア"
     },
     {
       "id": "400021532",
@@ -2277,7 +2367,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ニューヨーク/ニュージャージースタジアム"
+      "stadium": "ニューヨーク/ニュージャージースタジアム",
+      "city": "ニュー・ジャージー州"
     },
     {
       "id": "400021531",
@@ -2302,7 +2393,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "メキシコシティスタジアム"
+      "stadium": "メキシコシティスタジアム",
+      "city": "メキシコシティ"
     },
     {
       "id": "400021529",
@@ -2327,7 +2419,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ダラススタジアム"
+      "stadium": "ダラススタジアム",
+      "city": "ダラス"
     },
     {
       "id": "400021534",
@@ -2352,7 +2445,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "シアトルスタジアム"
+      "stadium": "シアトルスタジアム",
+      "city": "シアトル"
     },
     {
       "id": "400021528",
@@ -2377,7 +2471,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "アトランタスタジアム"
+      "stadium": "アトランタスタジアム",
+      "city": "アトランタ"
     },
     {
       "id": "400021535",
@@ -2402,7 +2497,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "BCプレイスバンクーバー"
+      "stadium": "BCプレイスバンクーバー",
+      "city": "バンクーバー"
     },
     {
       "id": "400021536",
@@ -2427,7 +2523,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ボストンスタジアム"
+      "stadium": "ボストンスタジアム",
+      "city": "ボストン"
     },
     {
       "id": "400021538",
@@ -2452,7 +2549,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ロサンゼルススタジアム"
+      "stadium": "ロサンゼルススタジアム",
+      "city": "ロサンゼルス"
     },
     {
       "id": "400021539",
@@ -2477,7 +2575,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "マイアミスタジアム"
+      "stadium": "マイアミスタジアム",
+      "city": "マイアミ"
     },
     {
       "id": "400021537",
@@ -2502,7 +2601,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "カンザスシティスタジアム"
+      "stadium": "カンザスシティスタジアム",
+      "city": "カンザスシティ"
     },
     {
       "id": "400021541",
@@ -2527,7 +2627,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ダラススタジアム"
+      "stadium": "ダラススタジアム",
+      "city": "ダラス"
     },
     {
       "id": "400021540",
@@ -2552,7 +2653,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "アトランタスタジアム"
+      "stadium": "アトランタスタジアム",
+      "city": "アトランタ"
     },
     {
       "id": "400021542",
@@ -2577,7 +2679,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "マイアミスタジアム"
+      "stadium": "マイアミスタジアム",
+      "city": "マイアミ"
     },
     {
       "id": "400021543",
@@ -2602,7 +2705,8 @@
       },
       "homePens": null,
       "awayPens": null,
-      "stadium": "ニューヨーク/ニュージャージースタジアム"
+      "stadium": "ニューヨーク/ニュージャージースタジアム",
+      "city": "ニュー・ジャージー州"
     }
   ]
 }

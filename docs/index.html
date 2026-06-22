@@ -26,28 +26,35 @@
         background: #ffffff;
         border-radius: 22px;
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-        padding: 16px;
+        padding: 14px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 12px;
       }
       .match { display: flex; flex-direction: column; gap: 6px; }
-      .date { text-align: center; font-size: 11px; font-weight: 600; color: #8a8a94; }
+      .date { text-align: center; font-size: 11px; font-weight: 400; color: #7a7a86; }
       .date.live { color: #e4002b; }
+
       .row { display: flex; align-items: center; }
-      .side { display: flex; align-items: center; gap: 7px; }
-      .side.away { flex-direction: row; }
-      .code { font-size: 18px; font-weight: 800; color: #15151e; letter-spacing: 0.5px; }
-      .flag {
-        width: 30px; height: 20px; border-radius: 3px;
-        border: 1px solid rgba(0, 0, 0, 0.08); object-fit: cover; display: block;
+      .side { display: flex; align-items: center; gap: 7px; width: 120px; }
+      .side.home { justify-content: flex-end; }
+      .side.away { justify-content: flex-start; }
+      .name {
+        font-size: 15px; font-weight: 400; color: #1a1a22;
+        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
       }
-      .spacer { flex: 1; }
-      .kickoff { font-size: 20px; font-weight: 800; color: #15151e; padding: 0 10px; }
+      .flag {
+        width: 32px; height: 21px; border-radius: 0; /* 角ばった四角形 */
+        border: 1px solid rgba(0, 0, 0, 0.12); object-fit: cover; display: block; flex: none;
+      }
+      .kickoff {
+        width: 64px; text-align: center; font-size: 20px; font-weight: 500; color: #1a1a22;
+      }
       .kickoff.live { color: #e4002b; }
-      .divider { height: 1px; background: #ededf1; }
-      .empty { text-align: center; color: #8a8a94; font-size: 14px; }
+      .meta { text-align: center; font-size: 10px; font-weight: 400; color: #7a7a86; }
+      .divider { height: 1px; background: #ececf0; }
+      .empty { text-align: center; color: #7a7a86; font-size: 14px; }
     </style>
   </head>
   <body>
@@ -60,27 +67,27 @@
       const dDate = new Intl.DateTimeFormat("ja-JP", { month: "numeric", day: "numeric", weekday: "short" });
       const dTime = new Intl.DateTimeFormat("ja-JP", { hour: "2-digit", minute: "2-digit", hour12: false });
 
-      function code(t) {
-        return (t.code || t.name || "TBD").toString().toUpperCase().slice(0, 3);
-      }
       function flagImg(t) {
         return t.flag ? `<img class="flag" src="${t.flag}" alt="">` : "";
+      }
+      function metaText(m) {
+        const venue = m.stadium ? (m.city ? `${m.stadium}（${m.city}）` : m.stadium) : null;
+        return [m.stage, m.group, venue].filter(Boolean).join("　・　");
       }
       function matchHTML(m) {
         const d = new Date(m.date);
         const live = m.status === "live";
         const ko = live ? "LIVE" : dTime.format(d);
-        const dateTxt = dDate.format(d);
+        const meta = metaText(m);
         return `
           <div class="match">
-            <div class="date ${live ? "live" : ""}">${dateTxt}</div>
+            <div class="date ${live ? "live" : ""}">${dDate.format(d)}</div>
             <div class="row">
-              <div class="side home"><span class="code">${code(m.home)}</span>${flagImg(m.home)}</div>
-              <div class="spacer"></div>
+              <div class="side home"><span class="name">${m.home.name}</span>${flagImg(m.home)}</div>
               <div class="kickoff ${live ? "live" : ""}">${ko}</div>
-              <div class="spacer"></div>
-              <div class="side away">${flagImg(m.away)}<span class="code">${code(m.away)}</span></div>
+              <div class="side away">${flagImg(m.away)}<span class="name">${m.away.name}</span></div>
             </div>
+            ${meta ? `<div class="meta">${meta}</div>` : ""}
           </div>`;
       }
 

@@ -71,6 +71,7 @@ async function main() {
       homePens: m.HomeTeamPenaltyScore ?? null,
       awayPens: m.AwayTeamPenaltyScore ?? null,
       stadium: m.Stadium ? loc(m.Stadium.Name) : null,
+      city: m.Stadium ? loc(m.Stadium.CityName) : null,
     }))
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 

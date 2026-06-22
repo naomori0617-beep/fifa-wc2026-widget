@@ -1,12 +1,13 @@
 // ===================================================================
 // FIFA World Cup 2026 ウィジェット for Scriptable
-// 「次の2試合」だけを FIFA 公式サイト風（白基調）で表示するシンプル版
+// 「次の2試合」を FIFA 公式サイトの試合カードに寄せたデザインで表示
+//   日付 ／ 国名フル＋国旗＋キックオフ時刻 ／ ステージ・グループ・会場
 // -------------------------------------------------------------------
 // 使い方:
-//   1. iPhone に「Scriptable」アプリを入れる
+//   1. iPhone に「Scriptable」を入れる
 //   2. このファイルの中身を新規スクリプトに貼り付ける
 //   3. ホーム画面にウィジェット追加 → Scriptable → このスクリプトを指定
-//   推奨サイズ: 中（小・大にも対応）
+//   推奨サイズ: 中
 // ===================================================================
 
 // このリポジトリの GitHub Pages の data.json（設定済み）
@@ -15,14 +16,15 @@ const DATA_URL = "https://naomori0617-beep.github.io/fifa-wc2026-widget/data.jso
 // 表示する試合数
 const SHOW = 2;
 
-// ----- 配色（FIFA 公式サイト風：白基調・濃紺アクセント） -----
+// ----- 配色（FIFA 公式サイト風：白基調） -----
 const C = {
   bg: new Color("#ffffff"),
-  text: new Color("#15151e"), // チーム名
-  time: new Color("#15151e"), // キックオフ時刻
-  sub: new Color("#8a8a94"), // 日付など補助
-  divider: new Color("#ededf1"),
-  flagBorder: new Color("#000000", 0.08),
+  text: new Color("#1a1a22"), // 国名
+  time: new Color("#1a1a22"), // キックオフ時刻
+  sub: new Color("#7a7a86"), // 日付・メタ
+  red: new Color("#e4002b"), // LIVE
+  divider: new Color("#ececf0"),
+  flagBorder: new Color("#000000", 0.12),
 };
 
 // ----- データ取得（失敗時は端末キャッシュにフォールバック） -----
@@ -54,7 +56,7 @@ async function loadFlag(url) {
   return flagCache[url];
 }
 
-// ----- 日付・時刻（端末のタイムゾーン = 日本なら JST 表示） -----
+// ----- 日付・時刻（端末のタイムゾーン = 日本なら JST） -----
 function fmtDate(iso) {
   const df = new DateFormatter();
   df.locale = "ja-JP";
@@ -68,7 +70,11 @@ function fmtTime(iso) {
   return df.string(new Date(iso));
 }
 
-// 次の SHOW 試合（試合中＋未開催を日付順に）
+function metaText(m) {
+  const venue = m.stadium ? (m.city ? `${m.stadium}（${m.city}）` : m.stadium) : null;
+  return [m.stage, m.group, venue].filter(Boolean).join("　・　");
+}
+
 function pickNext(data) {
   return (data.matches || [])
     .filter((m) => m.status === "live" || m.status === "upcoming")
@@ -81,62 +87,76 @@ async function drawMatch(w, m, sz) {
   block.layoutVertically();
   block.spacing = sz.gap;
 
-  // 日付・時刻（上段・中央・控えめ）
-  const dateRow = block.addStack();
-  dateRow.addSpacer();
-  const dt = dateRow.addText(fmtDate(m.date));
-  dt.font = Font.mediumSystemFont(sz.date);
-  dt.textColor = m.status === "live" ? new Color("#e4002b") : C.sub;
-  dateRow.addSpacer();
+  // 日付（上段・中央・控えめ）
+  centerText(block, fmtDate(m.date), Font.systemFont(sz.date), m.status === "live" ? C.red : C.sub);
 
-  // 対戦カード： [HOMEコード][旗]  〔kickoff〕  [旗][AWAYコード]
+  // 対戦カード：[国名 旗]  時刻  [旗 国名]（時刻を中央固定）
   const row = block.addStack();
   row.centerAlignContent();
 
-  await teamSide(row, m.home, sz, true);
+  const home = row.addStack();
+  home.size = new Size(sz.side, 0);
+  home.centerAlignContent();
+  home.addSpacer();
+  addName(home, m.home.name, sz);
+  home.addSpacer(sz.flagGap);
+  await addFlag(home, m.home.flag, sz);
 
-  row.addSpacer();
-  const ko = row.addText(m.status === "live" ? "LIVE" : fmtTime(m.date));
-  ko.font = Font.boldSystemFont(sz.time);
-  ko.textColor = m.status === "live" ? new Color("#e4002b") : C.time;
-  row.addSpacer();
+  const center = row.addStack();
+  center.size = new Size(sz.center, 0);
+  center.centerAlignContent();
+  center.addSpacer();
+  const ko = center.addText(m.status === "live" ? "LIVE" : fmtTime(m.date));
+  ko.font = Font.mediumSystemFont(sz.time);
+  ko.textColor = m.status === "live" ? C.red : C.time;
+  center.addSpacer();
 
-  await teamSide(row, m.away, sz, false);
+  const away = row.addStack();
+  away.size = new Size(sz.side, 0);
+  away.centerAlignContent();
+  await addFlag(away, m.away.flag, sz);
+  away.addSpacer(sz.flagGap);
+  addName(away, m.away.name, sz);
+  away.addSpacer();
+
+  // メタ（ステージ・グループ・会場）
+  const meta = metaText(m);
+  if (meta) centerText(block, meta, Font.systemFont(sz.meta), C.sub);
 }
 
-async function teamSide(row, t, sz, isHome) {
-  const code = (t.code || t.name || "TBD").toString().toUpperCase().slice(0, 3);
-  const flag = await loadFlag(t.flag);
-
-  if (isHome) {
-    const label = row.addText(code);
-    label.font = Font.boldSystemFont(sz.code);
-    label.textColor = C.text;
-    label.lineLimit = 1;
-    row.addSpacer(sz.flagGap);
-    addFlag(row, flag, sz);
-  } else {
-    addFlag(row, flag, sz);
-    row.addSpacer(sz.flagGap);
-    const label = row.addText(code);
-    label.font = Font.boldSystemFont(sz.code);
-    label.textColor = C.text;
-    label.lineLimit = 1;
-  }
+function addName(stack, name, sz) {
+  const t = stack.addText(name);
+  t.font = Font.systemFont(sz.name);
+  t.textColor = C.text;
+  t.lineLimit = 1;
+  t.minimumScaleFactor = 0.6;
 }
 
-function addFlag(row, flag, sz) {
+async function addFlag(stack, url, sz) {
+  const flag = await loadFlag(url);
   if (flag) {
-    const img = row.addImage(flag);
+    const img = stack.addImage(flag);
     img.imageSize = new Size(sz.flagW, sz.flagH);
-    img.cornerRadius = 3;
+    img.cornerRadius = 0; // 角ばった（シャープな）四角形
     img.borderWidth = 1;
     img.borderColor = C.flagBorder;
   } else {
-    const ph = row.addText("■");
-    ph.font = Font.systemFont(sz.code);
+    const ph = stack.addText("□");
+    ph.font = Font.systemFont(sz.name);
     ph.textColor = C.divider;
   }
+}
+
+function centerText(container, text, font, color) {
+  const r = container.addStack();
+  r.addSpacer();
+  const t = r.addText(text);
+  t.font = font;
+  t.textColor = color;
+  t.lineLimit = 1;
+  t.minimumScaleFactor = 0.6;
+  t.centerAlignText();
+  r.addSpacer();
 }
 
 function divider(w, sz) {
@@ -151,10 +171,9 @@ function divider(w, sz) {
 // ----- サイズ別パラメータ -----
 function sizeParams(family) {
   if (family === "small") {
-    return { date: 9, time: 16, code: 14, flagW: 24, flagH: 16, flagGap: 5, gap: 4, blockGap: 7, pad: 12 };
+    return { date: 9, name: 11, time: 15, meta: 7.5, flagW: 22, flagH: 15, flagGap: 4, side: 70, center: 44, gap: 4, blockGap: 7, pad: 11 };
   }
-  // medium / large
-  return { date: 11, time: 20, code: 18, flagW: 30, flagH: 20, flagGap: 7, gap: 6, blockGap: 12, pad: 16 };
+  return { date: 11, name: 15, time: 20, meta: 9.5, flagW: 32, flagH: 21, flagGap: 7, side: 120, center: 64, gap: 6, blockGap: 12, pad: 14 };
 }
 
 // ===================================================================
@@ -181,12 +200,7 @@ async function main() {
   const matches = pickNext(data);
   if (matches.length === 0) {
     w.addSpacer();
-    const r = w.addStack();
-    r.addSpacer();
-    const t = r.addText("予定された試合はありません");
-    t.font = Font.systemFont(13);
-    t.textColor = C.sub;
-    r.addSpacer();
+    centerText(w, "予定された試合はありません", Font.systemFont(13), C.sub);
     w.addSpacer();
     return finish(w);
   }
