@@ -1,0 +1,2608 @@
+{
+  "updated": "2026-06-22T04:38:24.794Z",
+  "competition": "FIFA ワールドカップ™",
+  "season": "FIFA ワールドカップ 2026™",
+  "count": 104,
+  "matches": [
+    {
+      "id": "400021443",
+      "date": "2026-06-11T19:00:00Z",
+      "localDate": "2026-06-11T13:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ A",
+      "matchday": null,
+      "home": {
+        "name": "メキシコ",
+        "code": "MEX",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MEX"
+      },
+      "away": {
+        "name": "南アフリカ",
+        "code": "RSA",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/RSA"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "メキシコシティスタジアム"
+    },
+    {
+      "id": "400021441",
+      "date": "2026-06-12T02:00:00Z",
+      "localDate": "2026-06-11T20:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ A",
+      "matchday": null,
+      "home": {
+        "name": "韓国",
+        "code": "KOR",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/KOR"
+      },
+      "away": {
+        "name": "チェコ",
+        "code": "CZE",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CZE"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "グアダラハラスタジアム"
+    },
+    {
+      "id": "400021449",
+      "date": "2026-06-12T19:00:00Z",
+      "localDate": "2026-06-12T15:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ B",
+      "matchday": null,
+      "home": {
+        "name": "カナダ",
+        "code": "CAN",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
+      },
+      "away": {
+        "name": "ボスニア・ヘルツェゴビナ",
+        "code": "BIH",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BIH"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "トロントスタジアム"
+    },
+    {
+      "id": "400021458",
+      "date": "2026-06-13T01:00:00Z",
+      "localDate": "2026-06-12T18:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ D",
+      "matchday": null,
+      "home": {
+        "name": "アメリカ",
+        "code": "USA",
+        "score": 4,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
+      },
+      "away": {
+        "name": "パラグアイ",
+        "code": "PAR",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ロサンゼルススタジアム"
+    },
+    {
+      "id": "400021447",
+      "date": "2026-06-13T19:00:00Z",
+      "localDate": "2026-06-13T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ B",
+      "matchday": null,
+      "home": {
+        "name": "カタール",
+        "code": "QAT",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/QAT"
+      },
+      "away": {
+        "name": "スイス",
+        "code": "SUI",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "サンフランシスコベイエリアスタジアム"
+    },
+    {
+      "id": "400021456",
+      "date": "2026-06-13T22:00:00Z",
+      "localDate": "2026-06-13T18:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ C",
+      "matchday": null,
+      "home": {
+        "name": "ブラジル",
+        "code": "BRA",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
+      },
+      "away": {
+        "name": "モロッコ",
+        "code": "MAR",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ニューヨーク/ニュージャージースタジアム"
+    },
+    {
+      "id": "400021453",
+      "date": "2026-06-14T01:00:00Z",
+      "localDate": "2026-06-13T21:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ C",
+      "matchday": null,
+      "home": {
+        "name": "ハイチ",
+        "code": "HAI",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI"
+      },
+      "away": {
+        "name": "スコットランド",
+        "code": "SCO",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SCO"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ボストンスタジアム"
+    },
+    {
+      "id": "400021463",
+      "date": "2026-06-14T04:00:00Z",
+      "localDate": "2026-06-13T21:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ D",
+      "matchday": null,
+      "home": {
+        "name": "オーストラリア",
+        "code": "AUS",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUS"
+      },
+      "away": {
+        "name": "トルコ",
+        "code": "TUR",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/TUR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "BCプレイスバンクーバー"
+    },
+    {
+      "id": "400021464",
+      "date": "2026-06-14T17:00:00Z",
+      "localDate": "2026-06-14T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ E",
+      "matchday": null,
+      "home": {
+        "name": "ドイツ",
+        "code": "GER",
+        "score": 7,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GER"
+      },
+      "away": {
+        "name": "キュラソー",
+        "code": "CUW",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CUW"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ヒューストンスタジアム"
+    },
+    {
+      "id": "400021470",
+      "date": "2026-06-14T20:00:00Z",
+      "localDate": "2026-06-14T15:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ F",
+      "matchday": null,
+      "home": {
+        "name": "オランダ",
+        "code": "NED",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NED"
+      },
+      "away": {
+        "name": "日本",
+        "code": "JPN",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/JPN"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ダラススタジアム"
+    },
+    {
+      "id": "400021467",
+      "date": "2026-06-14T23:00:00Z",
+      "localDate": "2026-06-14T19:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ E",
+      "matchday": null,
+      "home": {
+        "name": "コートジボワール",
+        "code": "CIV",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CIV"
+      },
+      "away": {
+        "name": "エクアドル",
+        "code": "ECU",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ECU"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "フィラデルフィアスタジアム"
+    },
+    {
+      "id": "400021474",
+      "date": "2026-06-15T02:00:00Z",
+      "localDate": "2026-06-14T20:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ F",
+      "matchday": null,
+      "home": {
+        "name": "スウェーデン",
+        "code": "SWE",
+        "score": 5,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SWE"
+      },
+      "away": {
+        "name": "チュニジア",
+        "code": "TUN",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/TUN"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "モンテレースタジアム"
+    },
+    {
+      "id": "400021482",
+      "date": "2026-06-15T16:00:00Z",
+      "localDate": "2026-06-15T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ H",
+      "matchday": null,
+      "home": {
+        "name": "スペイン",
+        "code": "ESP",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
+      },
+      "away": {
+        "name": "カーボベルデ",
+        "code": "CPV",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CPV"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "アトランタスタジアム"
+    },
+    {
+      "id": "400021478",
+      "date": "2026-06-15T19:00:00Z",
+      "localDate": "2026-06-15T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ G",
+      "matchday": null,
+      "home": {
+        "name": "ベルギー",
+        "code": "BEL",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
+      },
+      "away": {
+        "name": "エジプト",
+        "code": "EGY",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/EGY"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "シアトルスタジアム"
+    },
+    {
+      "id": "400021486",
+      "date": "2026-06-15T22:00:00Z",
+      "localDate": "2026-06-15T18:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ H",
+      "matchday": null,
+      "home": {
+        "name": "サウジアラビア",
+        "code": "KSA",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/KSA"
+      },
+      "away": {
+        "name": "ウルグアイ",
+        "code": "URU",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/URU"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "マイアミスタジアム"
+    },
+    {
+      "id": "400021476",
+      "date": "2026-06-16T01:00:00Z",
+      "localDate": "2026-06-15T18:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ G",
+      "matchday": null,
+      "home": {
+        "name": "イラン",
+        "code": "IRN",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRN"
+      },
+      "away": {
+        "name": "ニュージーランド",
+        "code": "NZL",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NZL"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ロサンゼルススタジアム"
+    },
+    {
+      "id": "400021490",
+      "date": "2026-06-16T19:00:00Z",
+      "localDate": "2026-06-16T15:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ I",
+      "matchday": null,
+      "home": {
+        "name": "フランス",
+        "code": "FRA",
+        "score": 3,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
+      },
+      "away": {
+        "name": "セネガル",
+        "code": "SEN",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SEN"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ニューヨーク/ニュージャージースタジアム"
+    },
+    {
+      "id": "400021488",
+      "date": "2026-06-16T22:00:00Z",
+      "localDate": "2026-06-16T18:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ I",
+      "matchday": null,
+      "home": {
+        "name": "イラク",
+        "code": "IRQ",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRQ"
+      },
+      "away": {
+        "name": "ノルウェー",
+        "code": "NOR",
+        "score": 4,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ボストンスタジアム"
+    },
+    {
+      "id": "400021496",
+      "date": "2026-06-17T01:00:00Z",
+      "localDate": "2026-06-16T20:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ J",
+      "matchday": null,
+      "home": {
+        "name": "アルゼンチン",
+        "code": "ARG",
+        "score": 3,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
+      },
+      "away": {
+        "name": "アルジェリア",
+        "code": "ALG",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ALG"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "カンザスシティスタジアム"
+    },
+    {
+      "id": "400021498",
+      "date": "2026-06-17T04:00:00Z",
+      "localDate": "2026-06-16T21:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ J",
+      "matchday": null,
+      "home": {
+        "name": "オーストリア",
+        "code": "AUT",
+        "score": 3,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUT"
+      },
+      "away": {
+        "name": "ヨルダン",
+        "code": "JOR",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/JOR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "サンフランシスコベイエリアスタジアム"
+    },
+    {
+      "id": "400021502",
+      "date": "2026-06-17T17:00:00Z",
+      "localDate": "2026-06-17T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ K",
+      "matchday": null,
+      "home": {
+        "name": "ポルトガル",
+        "code": "POR",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR"
+      },
+      "away": {
+        "name": "コンゴ",
+        "code": "COD",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COD"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ヒューストンスタジアム"
+    },
+    {
+      "id": "400021507",
+      "date": "2026-06-17T20:00:00Z",
+      "localDate": "2026-06-17T15:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ L",
+      "matchday": null,
+      "home": {
+        "name": "イングランド",
+        "code": "ENG",
+        "score": 4,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
+      },
+      "away": {
+        "name": "クロアチア",
+        "code": "CRO",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CRO"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ダラススタジアム"
+    },
+    {
+      "id": "400021510",
+      "date": "2026-06-17T23:00:00Z",
+      "localDate": "2026-06-17T19:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ L",
+      "matchday": null,
+      "home": {
+        "name": "ガーナ",
+        "code": "GHA",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GHA"
+      },
+      "away": {
+        "name": "パナマ",
+        "code": "PAN",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAN"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "トロントスタジアム"
+    },
+    {
+      "id": "400021504",
+      "date": "2026-06-18T02:00:00Z",
+      "localDate": "2026-06-17T20:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ K",
+      "matchday": null,
+      "home": {
+        "name": "ウズベキスタン",
+        "code": "UZB",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/UZB"
+      },
+      "away": {
+        "name": "コロンビア",
+        "code": "COL",
+        "score": 3,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COL"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "メキシコシティスタジアム"
+    },
+    {
+      "id": "400021440",
+      "date": "2026-06-18T16:00:00Z",
+      "localDate": "2026-06-18T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ A",
+      "matchday": null,
+      "home": {
+        "name": "チェコ",
+        "code": "CZE",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CZE"
+      },
+      "away": {
+        "name": "南アフリカ",
+        "code": "RSA",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/RSA"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "アトランタスタジアム"
+    },
+    {
+      "id": "400021446",
+      "date": "2026-06-18T19:00:00Z",
+      "localDate": "2026-06-18T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ B",
+      "matchday": null,
+      "home": {
+        "name": "スイス",
+        "code": "SUI",
+        "score": 4,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI"
+      },
+      "away": {
+        "name": "ボスニア・ヘルツェゴビナ",
+        "code": "BIH",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BIH"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ロサンゼルススタジアム"
+    },
+    {
+      "id": "400021450",
+      "date": "2026-06-18T22:00:00Z",
+      "localDate": "2026-06-18T15:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ B",
+      "matchday": null,
+      "home": {
+        "name": "カナダ",
+        "code": "CAN",
+        "score": 6,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
+      },
+      "away": {
+        "name": "カタール",
+        "code": "QAT",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/QAT"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "BCプレイスバンクーバー"
+    },
+    {
+      "id": "400021442",
+      "date": "2026-06-19T01:00:00Z",
+      "localDate": "2026-06-18T19:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ A",
+      "matchday": null,
+      "home": {
+        "name": "メキシコ",
+        "code": "MEX",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MEX"
+      },
+      "away": {
+        "name": "韓国",
+        "code": "KOR",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/KOR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "グアダラハラスタジアム"
+    },
+    {
+      "id": "400021462",
+      "date": "2026-06-19T19:00:00Z",
+      "localDate": "2026-06-19T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ D",
+      "matchday": null,
+      "home": {
+        "name": "アメリカ",
+        "code": "USA",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
+      },
+      "away": {
+        "name": "オーストラリア",
+        "code": "AUS",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUS"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "シアトルスタジアム"
+    },
+    {
+      "id": "400021454",
+      "date": "2026-06-19T22:00:00Z",
+      "localDate": "2026-06-19T18:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ C",
+      "matchday": null,
+      "home": {
+        "name": "スコットランド",
+        "code": "SCO",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SCO"
+      },
+      "away": {
+        "name": "モロッコ",
+        "code": "MAR",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ボストンスタジアム"
+    },
+    {
+      "id": "400021457",
+      "date": "2026-06-20T00:30:00Z",
+      "localDate": "2026-06-19T20:30:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ C",
+      "matchday": null,
+      "home": {
+        "name": "ブラジル",
+        "code": "BRA",
+        "score": 3,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
+      },
+      "away": {
+        "name": "ハイチ",
+        "code": "HAI",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "フィラデルフィアスタジアム"
+    },
+    {
+      "id": "400021460",
+      "date": "2026-06-20T03:00:00Z",
+      "localDate": "2026-06-19T20:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ D",
+      "matchday": null,
+      "home": {
+        "name": "トルコ",
+        "code": "TUR",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/TUR"
+      },
+      "away": {
+        "name": "パラグアイ",
+        "code": "PAR",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "サンフランシスコベイエリアスタジアム"
+    },
+    {
+      "id": "400021472",
+      "date": "2026-06-20T17:00:00Z",
+      "localDate": "2026-06-20T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ F",
+      "matchday": null,
+      "home": {
+        "name": "オランダ",
+        "code": "NED",
+        "score": 5,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NED"
+      },
+      "away": {
+        "name": "スウェーデン",
+        "code": "SWE",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SWE"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ヒューストンスタジアム"
+    },
+    {
+      "id": "400021469",
+      "date": "2026-06-20T20:00:00Z",
+      "localDate": "2026-06-20T16:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ E",
+      "matchday": null,
+      "home": {
+        "name": "ドイツ",
+        "code": "GER",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GER"
+      },
+      "away": {
+        "name": "コートジボワール",
+        "code": "CIV",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CIV"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "トロントスタジアム"
+    },
+    {
+      "id": "400021465",
+      "date": "2026-06-21T00:00:00Z",
+      "localDate": "2026-06-20T19:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ E",
+      "matchday": null,
+      "home": {
+        "name": "エクアドル",
+        "code": "ECU",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ECU"
+      },
+      "away": {
+        "name": "キュラソー",
+        "code": "CUW",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CUW"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "カンザスシティスタジアム"
+    },
+    {
+      "id": "400021475",
+      "date": "2026-06-21T04:00:00Z",
+      "localDate": "2026-06-20T22:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ F",
+      "matchday": null,
+      "home": {
+        "name": "チュニジア",
+        "code": "TUN",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/TUN"
+      },
+      "away": {
+        "name": "日本",
+        "code": "JPN",
+        "score": 4,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/JPN"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "モンテレースタジアム"
+    },
+    {
+      "id": "400021483",
+      "date": "2026-06-21T16:00:00Z",
+      "localDate": "2026-06-21T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ H",
+      "matchday": null,
+      "home": {
+        "name": "スペイン",
+        "code": "ESP",
+        "score": 4,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
+      },
+      "away": {
+        "name": "サウジアラビア",
+        "code": "KSA",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/KSA"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "アトランタスタジアム"
+    },
+    {
+      "id": "400021477",
+      "date": "2026-06-21T19:00:00Z",
+      "localDate": "2026-06-21T12:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ G",
+      "matchday": null,
+      "home": {
+        "name": "ベルギー",
+        "code": "BEL",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
+      },
+      "away": {
+        "name": "イラン",
+        "code": "IRN",
+        "score": 0,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRN"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ロサンゼルススタジアム"
+    },
+    {
+      "id": "400021487",
+      "date": "2026-06-21T22:00:00Z",
+      "localDate": "2026-06-21T18:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ H",
+      "matchday": null,
+      "home": {
+        "name": "ウルグアイ",
+        "code": "URU",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/URU"
+      },
+      "away": {
+        "name": "カーボベルデ",
+        "code": "CPV",
+        "score": 2,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CPV"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "マイアミスタジアム"
+    },
+    {
+      "id": "400021480",
+      "date": "2026-06-22T01:00:00Z",
+      "localDate": "2026-06-21T18:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
+      "stage": "1st ステージ",
+      "group": "グループ G",
+      "matchday": null,
+      "home": {
+        "name": "ニュージーランド",
+        "code": "NZL",
+        "score": 1,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NZL"
+      },
+      "away": {
+        "name": "エジプト",
+        "code": "EGY",
+        "score": 3,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/EGY"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "BCプレイスバンクーバー"
+    },
+    {
+      "id": "400021494",
+      "date": "2026-06-22T17:00:00Z",
+      "localDate": "2026-06-22T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ J",
+      "matchday": null,
+      "home": {
+        "name": "アルゼンチン",
+        "code": "ARG",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
+      },
+      "away": {
+        "name": "オーストリア",
+        "code": "AUT",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUT"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ダラススタジアム"
+    },
+    {
+      "id": "400021492",
+      "date": "2026-06-22T21:00:00Z",
+      "localDate": "2026-06-22T17:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ I",
+      "matchday": null,
+      "home": {
+        "name": "フランス",
+        "code": "FRA",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
+      },
+      "away": {
+        "name": "イラク",
+        "code": "IRQ",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRQ"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "フィラデルフィアスタジアム"
+    },
+    {
+      "id": "400021491",
+      "date": "2026-06-23T00:00:00Z",
+      "localDate": "2026-06-22T20:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ I",
+      "matchday": null,
+      "home": {
+        "name": "ノルウェー",
+        "code": "NOR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
+      },
+      "away": {
+        "name": "セネガル",
+        "code": "SEN",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SEN"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ニューヨーク/ニュージャージースタジアム"
+    },
+    {
+      "id": "400021499",
+      "date": "2026-06-23T03:00:00Z",
+      "localDate": "2026-06-22T20:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ J",
+      "matchday": null,
+      "home": {
+        "name": "ヨルダン",
+        "code": "JOR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/JOR"
+      },
+      "away": {
+        "name": "アルジェリア",
+        "code": "ALG",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ALG"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "サンフランシスコベイエリアスタジアム"
+    },
+    {
+      "id": "400021503",
+      "date": "2026-06-23T17:00:00Z",
+      "localDate": "2026-06-23T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ K",
+      "matchday": null,
+      "home": {
+        "name": "ポルトガル",
+        "code": "POR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR"
+      },
+      "away": {
+        "name": "ウズベキスタン",
+        "code": "UZB",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/UZB"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ヒューストンスタジアム"
+    },
+    {
+      "id": "400021506",
+      "date": "2026-06-23T20:00:00Z",
+      "localDate": "2026-06-23T16:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ L",
+      "matchday": null,
+      "home": {
+        "name": "イングランド",
+        "code": "ENG",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
+      },
+      "away": {
+        "name": "ガーナ",
+        "code": "GHA",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GHA"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ボストンスタジアム"
+    },
+    {
+      "id": "400021511",
+      "date": "2026-06-23T23:00:00Z",
+      "localDate": "2026-06-23T19:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ L",
+      "matchday": null,
+      "home": {
+        "name": "パナマ",
+        "code": "PAN",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAN"
+      },
+      "away": {
+        "name": "クロアチア",
+        "code": "CRO",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CRO"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "トロントスタジアム"
+    },
+    {
+      "id": "400021501",
+      "date": "2026-06-24T02:00:00Z",
+      "localDate": "2026-06-23T20:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ K",
+      "matchday": null,
+      "home": {
+        "name": "コロンビア",
+        "code": "COL",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COL"
+      },
+      "away": {
+        "name": "コンゴ",
+        "code": "COD",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COD"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "グアダラハラスタジアム"
+    },
+    {
+      "id": "400021448",
+      "date": "2026-06-24T19:00:00Z",
+      "localDate": "2026-06-24T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ B",
+      "matchday": null,
+      "home": {
+        "name": "ボスニア・ヘルツェゴビナ",
+        "code": "BIH",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BIH"
+      },
+      "away": {
+        "name": "カタール",
+        "code": "QAT",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/QAT"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "シアトルスタジアム"
+    },
+    {
+      "id": "400021451",
+      "date": "2026-06-24T19:00:00Z",
+      "localDate": "2026-06-24T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ B",
+      "matchday": null,
+      "home": {
+        "name": "スイス",
+        "code": "SUI",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI"
+      },
+      "away": {
+        "name": "カナダ",
+        "code": "CAN",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "BCプレイスバンクーバー"
+    },
+    {
+      "id": "400021452",
+      "date": "2026-06-24T22:00:00Z",
+      "localDate": "2026-06-24T18:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ C",
+      "matchday": null,
+      "home": {
+        "name": "モロッコ",
+        "code": "MAR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
+      },
+      "away": {
+        "name": "ハイチ",
+        "code": "HAI",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "アトランタスタジアム"
+    },
+    {
+      "id": "400021455",
+      "date": "2026-06-24T22:00:00Z",
+      "localDate": "2026-06-24T18:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ C",
+      "matchday": null,
+      "home": {
+        "name": "スコットランド",
+        "code": "SCO",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SCO"
+      },
+      "away": {
+        "name": "ブラジル",
+        "code": "BRA",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "マイアミスタジアム"
+    },
+    {
+      "id": "400021445",
+      "date": "2026-06-25T01:00:00Z",
+      "localDate": "2026-06-24T19:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ A",
+      "matchday": null,
+      "home": {
+        "name": "南アフリカ",
+        "code": "RSA",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/RSA"
+      },
+      "away": {
+        "name": "韓国",
+        "code": "KOR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/KOR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "モンテレースタジアム"
+    },
+    {
+      "id": "400021444",
+      "date": "2026-06-25T01:00:00Z",
+      "localDate": "2026-06-24T19:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ A",
+      "matchday": null,
+      "home": {
+        "name": "チェコ",
+        "code": "CZE",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CZE"
+      },
+      "away": {
+        "name": "メキシコ",
+        "code": "MEX",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MEX"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "メキシコシティスタジアム"
+    },
+    {
+      "id": "400021468",
+      "date": "2026-06-25T20:00:00Z",
+      "localDate": "2026-06-25T16:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ E",
+      "matchday": null,
+      "home": {
+        "name": "キュラソー",
+        "code": "CUW",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CUW"
+      },
+      "away": {
+        "name": "コートジボワール",
+        "code": "CIV",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CIV"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "フィラデルフィアスタジアム"
+    },
+    {
+      "id": "400021466",
+      "date": "2026-06-25T20:00:00Z",
+      "localDate": "2026-06-25T16:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ E",
+      "matchday": null,
+      "home": {
+        "name": "エクアドル",
+        "code": "ECU",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ECU"
+      },
+      "away": {
+        "name": "ドイツ",
+        "code": "GER",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GER"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ニューヨーク/ニュージャージースタジアム"
+    },
+    {
+      "id": "400021473",
+      "date": "2026-06-25T23:00:00Z",
+      "localDate": "2026-06-25T18:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ F",
+      "matchday": null,
+      "home": {
+        "name": "チュニジア",
+        "code": "TUN",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/TUN"
+      },
+      "away": {
+        "name": "オランダ",
+        "code": "NED",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NED"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "カンザスシティスタジアム"
+    },
+    {
+      "id": "400021471",
+      "date": "2026-06-25T23:00:00Z",
+      "localDate": "2026-06-25T18:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ F",
+      "matchday": null,
+      "home": {
+        "name": "日本",
+        "code": "JPN",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/JPN"
+      },
+      "away": {
+        "name": "スウェーデン",
+        "code": "SWE",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SWE"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ダラススタジアム"
+    },
+    {
+      "id": "400021461",
+      "date": "2026-06-26T02:00:00Z",
+      "localDate": "2026-06-25T19:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ D",
+      "matchday": null,
+      "home": {
+        "name": "パラグアイ",
+        "code": "PAR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAR"
+      },
+      "away": {
+        "name": "オーストラリア",
+        "code": "AUS",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUS"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "サンフランシスコベイエリアスタジアム"
+    },
+    {
+      "id": "400021459",
+      "date": "2026-06-26T02:00:00Z",
+      "localDate": "2026-06-25T19:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ D",
+      "matchday": null,
+      "home": {
+        "name": "トルコ",
+        "code": "TUR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/TUR"
+      },
+      "away": {
+        "name": "アメリカ",
+        "code": "USA",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ロサンゼルススタジアム"
+    },
+    {
+      "id": "400021493",
+      "date": "2026-06-26T19:00:00Z",
+      "localDate": "2026-06-26T15:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ I",
+      "matchday": null,
+      "home": {
+        "name": "セネガル",
+        "code": "SEN",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SEN"
+      },
+      "away": {
+        "name": "イラク",
+        "code": "IRQ",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRQ"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "トロントスタジアム"
+    },
+    {
+      "id": "400021489",
+      "date": "2026-06-26T19:00:00Z",
+      "localDate": "2026-06-26T15:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ I",
+      "matchday": null,
+      "home": {
+        "name": "ノルウェー",
+        "code": "NOR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
+      },
+      "away": {
+        "name": "フランス",
+        "code": "FRA",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ボストンスタジアム"
+    },
+    {
+      "id": "400021484",
+      "date": "2026-06-27T00:00:00Z",
+      "localDate": "2026-06-26T18:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ H",
+      "matchday": null,
+      "home": {
+        "name": "ウルグアイ",
+        "code": "URU",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/URU"
+      },
+      "away": {
+        "name": "スペイン",
+        "code": "ESP",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "グアダラハラスタジアム"
+    },
+    {
+      "id": "400021485",
+      "date": "2026-06-27T00:00:00Z",
+      "localDate": "2026-06-26T19:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ H",
+      "matchday": null,
+      "home": {
+        "name": "カーボベルデ",
+        "code": "CPV",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CPV"
+      },
+      "away": {
+        "name": "サウジアラビア",
+        "code": "KSA",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/KSA"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ヒューストンスタジアム"
+    },
+    {
+      "id": "400021481",
+      "date": "2026-06-27T03:00:00Z",
+      "localDate": "2026-06-26T20:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ G",
+      "matchday": null,
+      "home": {
+        "name": "ニュージーランド",
+        "code": "NZL",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NZL"
+      },
+      "away": {
+        "name": "ベルギー",
+        "code": "BEL",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "BCプレイスバンクーバー"
+    },
+    {
+      "id": "400021479",
+      "date": "2026-06-27T03:00:00Z",
+      "localDate": "2026-06-26T20:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ G",
+      "matchday": null,
+      "home": {
+        "name": "エジプト",
+        "code": "EGY",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/EGY"
+      },
+      "away": {
+        "name": "イラン",
+        "code": "IRN",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRN"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "シアトルスタジアム"
+    },
+    {
+      "id": "400021508",
+      "date": "2026-06-27T21:00:00Z",
+      "localDate": "2026-06-27T17:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ L",
+      "matchday": null,
+      "home": {
+        "name": "パナマ",
+        "code": "PAN",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAN"
+      },
+      "away": {
+        "name": "イングランド",
+        "code": "ENG",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ニューヨーク/ニュージャージースタジアム"
+    },
+    {
+      "id": "400021509",
+      "date": "2026-06-27T21:00:00Z",
+      "localDate": "2026-06-27T17:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ L",
+      "matchday": null,
+      "home": {
+        "name": "クロアチア",
+        "code": "CRO",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CRO"
+      },
+      "away": {
+        "name": "ガーナ",
+        "code": "GHA",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GHA"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "フィラデルフィアスタジアム"
+    },
+    {
+      "id": "400021500",
+      "date": "2026-06-27T23:30:00Z",
+      "localDate": "2026-06-27T19:30:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ K",
+      "matchday": null,
+      "home": {
+        "name": "コンゴ",
+        "code": "COD",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COD"
+      },
+      "away": {
+        "name": "ウズベキスタン",
+        "code": "UZB",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/UZB"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "アトランタスタジアム"
+    },
+    {
+      "id": "400021505",
+      "date": "2026-06-27T23:30:00Z",
+      "localDate": "2026-06-27T19:30:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ K",
+      "matchday": null,
+      "home": {
+        "name": "コロンビア",
+        "code": "COL",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COL"
+      },
+      "away": {
+        "name": "ポルトガル",
+        "code": "POR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "マイアミスタジアム"
+    },
+    {
+      "id": "400021497",
+      "date": "2026-06-28T02:00:00Z",
+      "localDate": "2026-06-27T21:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ J",
+      "matchday": null,
+      "home": {
+        "name": "アルジェリア",
+        "code": "ALG",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ALG"
+      },
+      "away": {
+        "name": "オーストリア",
+        "code": "AUT",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUT"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "カンザスシティスタジアム"
+    },
+    {
+      "id": "400021495",
+      "date": "2026-06-28T02:00:00Z",
+      "localDate": "2026-06-27T21:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "1st ステージ",
+      "group": "グループ J",
+      "matchday": null,
+      "home": {
+        "name": "ヨルダン",
+        "code": "JOR",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/JOR"
+      },
+      "away": {
+        "name": "アルゼンチン",
+        "code": "ARG",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ダラススタジアム"
+    },
+    {
+      "id": "400021518",
+      "date": "2026-06-28T19:00:00Z",
+      "localDate": "2026-06-28T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ロサンゼルススタジアム"
+    },
+    {
+      "id": "400021516",
+      "date": "2026-06-29T17:00:00Z",
+      "localDate": "2026-06-29T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ヒューストンスタジアム"
+    },
+    {
+      "id": "400021513",
+      "date": "2026-06-29T20:30:00Z",
+      "localDate": "2026-06-29T16:30:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "ドイツ",
+        "code": "GER",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GER"
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ボストンスタジアム"
+    },
+    {
+      "id": "400021522",
+      "date": "2026-06-30T01:00:00Z",
+      "localDate": "2026-06-29T19:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "モンテレースタジアム"
+    },
+    {
+      "id": "400021514",
+      "date": "2026-06-30T17:00:00Z",
+      "localDate": "2026-06-30T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ダラススタジアム"
+    },
+    {
+      "id": "400021523",
+      "date": "2026-06-30T21:00:00Z",
+      "localDate": "2026-06-30T17:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ニューヨーク/ニュージャージースタジアム"
+    },
+    {
+      "id": "400021520",
+      "date": "2026-07-01T01:00:00Z",
+      "localDate": "2026-06-30T19:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "メキシコ",
+        "code": "MEX",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MEX"
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "メキシコシティスタジアム"
+    },
+    {
+      "id": "400021512",
+      "date": "2026-07-01T16:00:00Z",
+      "localDate": "2026-07-01T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "アトランタスタジアム"
+    },
+    {
+      "id": "400021525",
+      "date": "2026-07-01T20:00:00Z",
+      "localDate": "2026-07-01T13:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "シアトルスタジアム"
+    },
+    {
+      "id": "400021524",
+      "date": "2026-07-02T00:00:00Z",
+      "localDate": "2026-07-01T17:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "アメリカ",
+        "code": "USA",
+        "score": null,
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "サンフランシスコベイエリアスタジアム"
+    },
+    {
+      "id": "400021519",
+      "date": "2026-07-02T19:00:00Z",
+      "localDate": "2026-07-02T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ロサンゼルススタジアム"
+    },
+    {
+      "id": "400021526",
+      "date": "2026-07-02T23:00:00Z",
+      "localDate": "2026-07-02T19:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "トロントスタジアム"
+    },
+    {
+      "id": "400021527",
+      "date": "2026-07-03T03:00:00Z",
+      "localDate": "2026-07-02T20:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "BCプレイスバンクーバー"
+    },
+    {
+      "id": "400021515",
+      "date": "2026-07-03T18:00:00Z",
+      "localDate": "2026-07-03T13:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ダラススタジアム"
+    },
+    {
+      "id": "400021521",
+      "date": "2026-07-03T22:00:00Z",
+      "localDate": "2026-07-03T18:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "マイアミスタジアム"
+    },
+    {
+      "id": "400021517",
+      "date": "2026-07-04T01:30:00Z",
+      "localDate": "2026-07-03T20:30:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "32強ラウンド",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "カンザスシティスタジアム"
+    },
+    {
+      "id": "400021530",
+      "date": "2026-07-04T17:00:00Z",
+      "localDate": "2026-07-04T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "16強",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ヒューストンスタジアム"
+    },
+    {
+      "id": "400021533",
+      "date": "2026-07-04T21:00:00Z",
+      "localDate": "2026-07-04T17:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "16強",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "フィラデルフィアスタジアム"
+    },
+    {
+      "id": "400021532",
+      "date": "2026-07-05T20:00:00Z",
+      "localDate": "2026-07-05T16:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "16強",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ニューヨーク/ニュージャージースタジアム"
+    },
+    {
+      "id": "400021531",
+      "date": "2026-07-06T00:00:00Z",
+      "localDate": "2026-07-05T18:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "16強",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "メキシコシティスタジアム"
+    },
+    {
+      "id": "400021529",
+      "date": "2026-07-06T19:00:00Z",
+      "localDate": "2026-07-06T14:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "16強",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ダラススタジアム"
+    },
+    {
+      "id": "400021534",
+      "date": "2026-07-07T00:00:00Z",
+      "localDate": "2026-07-06T17:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "16強",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "シアトルスタジアム"
+    },
+    {
+      "id": "400021528",
+      "date": "2026-07-07T16:00:00Z",
+      "localDate": "2026-07-07T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "16強",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "アトランタスタジアム"
+    },
+    {
+      "id": "400021535",
+      "date": "2026-07-07T20:00:00Z",
+      "localDate": "2026-07-07T13:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "16強",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "BCプレイスバンクーバー"
+    },
+    {
+      "id": "400021536",
+      "date": "2026-07-09T20:00:00Z",
+      "localDate": "2026-07-09T16:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "準々決勝",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ボストンスタジアム"
+    },
+    {
+      "id": "400021538",
+      "date": "2026-07-10T19:00:00Z",
+      "localDate": "2026-07-10T12:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "準々決勝",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ロサンゼルススタジアム"
+    },
+    {
+      "id": "400021539",
+      "date": "2026-07-11T21:00:00Z",
+      "localDate": "2026-07-11T17:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "準々決勝",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "マイアミスタジアム"
+    },
+    {
+      "id": "400021537",
+      "date": "2026-07-12T01:00:00Z",
+      "localDate": "2026-07-11T20:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "準々決勝",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "カンザスシティスタジアム"
+    },
+    {
+      "id": "400021541",
+      "date": "2026-07-14T19:00:00Z",
+      "localDate": "2026-07-14T14:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "準決勝",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ダラススタジアム"
+    },
+    {
+      "id": "400021540",
+      "date": "2026-07-15T19:00:00Z",
+      "localDate": "2026-07-15T15:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "準決勝",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "アトランタスタジアム"
+    },
+    {
+      "id": "400021542",
+      "date": "2026-07-18T21:00:00Z",
+      "localDate": "2026-07-18T17:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "3 位決定戦プレーオフ",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "マイアミスタジアム"
+    },
+    {
+      "id": "400021543",
+      "date": "2026-07-19T19:00:00Z",
+      "localDate": "2026-07-19T15:00:00Z",
+      "status": "upcoming",
+      "matchStatusRaw": 1,
+      "stage": "決勝",
+      "group": null,
+      "matchday": null,
+      "home": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "away": {
+        "name": "未定",
+        "code": null,
+        "score": null,
+        "flag": null
+      },
+      "homePens": null,
+      "awayPens": null,
+      "stadium": "ニューヨーク/ニュージャージースタジアム"
+    }
+  ]
+}

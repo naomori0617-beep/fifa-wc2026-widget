@@ -1,0 +1,13 @@
+{
+  "name": "fifa-wc2026-widget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FIFA World Cup 2026 の日程・結果を iOS (Scriptable) ウィジェットで表示するためのデータ生成＋公開セット",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
