@@ -1,27 +1,28 @@
 // ===================================================================
 // FIFA World Cup 2026 ウィジェット for Scriptable
+// 「次の2試合」だけを FIFA 公式サイト風（白基調）で表示するシンプル版
 // -------------------------------------------------------------------
 // 使い方:
 //   1. iPhone に「Scriptable」アプリを入れる
-//   2. このファイルの中身を Scriptable の新規スクリプトに貼り付ける
-//   3. 下の DATA_URL を自分の GitHub Pages の data.json の URL に書き換える
-//   4. ホーム画面にウィジェットを追加 → Scriptable を選択 → このスクリプトを指定
-// 対応サイズ: 小 / 中 / 大
+//   2. このファイルの中身を新規スクリプトに貼り付ける
+//   3. ホーム画面にウィジェット追加 → Scriptable → このスクリプトを指定
+//   推奨サイズ: 中（小・大にも対応）
 // ===================================================================
 
-// ▼▼▼ このリポジトリの GitHub Pages の data.json（設定済み） ▼▼▼
+// このリポジトリの GitHub Pages の data.json（設定済み）
 const DATA_URL = "https://naomori0617-beep.github.io/fifa-wc2026-widget/data.json";
-// ▲▲▲ 別リポジトリに移す場合はここを書き換える ▲▲▲
 
-// ----- 色・スタイル -----
-const COLORS = {
-  bg1: new Color("#0b3d2e"),
-  bg2: new Color("#072018"),
-  text: new Color("#ffffff"),
-  sub: new Color("#9fd9bf"),
-  live: new Color("#ff4d4d"),
-  win: new Color("#ffd54a"),
-  line: new Color("#ffffff", 0.15),
+// 表示する試合数
+const SHOW = 2;
+
+// ----- 配色（FIFA 公式サイト風：白基調・濃紺アクセント） -----
+const C = {
+  bg: new Color("#ffffff"),
+  text: new Color("#15151e"), // チーム名
+  time: new Color("#15151e"), // キックオフ時刻
+  sub: new Color("#8a8a94"), // 日付など補助
+  divider: new Color("#ededf1"),
+  flagBorder: new Color("#000000", 0.08),
 };
 
 // ----- データ取得（失敗時は端末キャッシュにフォールバック） -----
@@ -41,228 +42,131 @@ async function loadData() {
   }
 }
 
-// 国旗画像（取得失敗は無視してテキストにフォールバック）
 const flagCache = {};
 async function loadFlag(url) {
   if (!url) return null;
   if (flagCache[url] !== undefined) return flagCache[url];
   try {
-    const img = await new Request(url).loadImage();
-    flagCache[url] = img;
-    return img;
+    flagCache[url] = await new Request(url).loadImage();
   } catch (e) {
     flagCache[url] = null;
-    return null;
   }
+  return flagCache[url];
 }
 
-// ----- 日付フォーマット（端末のタイムゾーン = 日本なら JST 表示） -----
-function fmtKickoff(iso) {
-  const d = new Date(iso);
+// ----- 日付・時刻（端末のタイムゾーン = 日本なら JST 表示） -----
+function fmtDate(iso) {
   const df = new DateFormatter();
   df.locale = "ja-JP";
-  df.dateFormat = "M/d(EEE) HH:mm";
-  return df.string(d);
+  df.dateFormat = "M月d日(EEE)";
+  return df.string(new Date(iso));
 }
-function fmtDateShort(iso) {
-  const d = new Date(iso);
+function fmtTime(iso) {
   const df = new DateFormatter();
   df.locale = "ja-JP";
-  df.dateFormat = "M/d";
-  return df.string(d);
+  df.dateFormat = "HH:mm";
+  return df.string(new Date(iso));
 }
 
-// ----- 試合の選別 -----
-function pickMatches(data) {
-  const matches = data.matches || [];
-  const live = matches.filter((m) => m.status === "live");
-  const upcoming = matches.filter((m) => m.status === "upcoming"); // date 昇順
-  const finished = matches.filter((m) => m.status === "finished");
-  const recent = finished.slice(-5).reverse(); // 直近の終了試合（新しい順）
-  // 「次の試合」= 進行中があればそれ、なければ未開催の先頭
-  const next = live[0] || upcoming[0] || null;
-  return { live, upcoming, finished, recent, next };
+// 次の SHOW 試合（試合中＋未開催を日付順に）
+function pickNext(data) {
+  return (data.matches || [])
+    .filter((m) => m.status === "live" || m.status === "upcoming")
+    .slice(0, SHOW);
 }
 
-// ===================================================================
-// レンダリング
-// ===================================================================
-function gradientBg(w) {
-  const g = new LinearGradient();
-  g.colors = [COLORS.bg1, COLORS.bg2];
-  g.locations = [0, 1];
-  w.backgroundGradient = g;
-}
+// ----- 1試合分の描画 -----
+async function drawMatch(w, m, sz) {
+  const block = w.addStack();
+  block.layoutVertically();
+  block.spacing = sz.gap;
 
-function headerRow(w, data) {
-  const row = w.addStack();
+  // 日付・時刻（上段・中央・控えめ）
+  const dateRow = block.addStack();
+  dateRow.addSpacer();
+  const dt = dateRow.addText(fmtDate(m.date));
+  dt.font = Font.mediumSystemFont(sz.date);
+  dt.textColor = m.status === "live" ? new Color("#e4002b") : C.sub;
+  dateRow.addSpacer();
+
+  // 対戦カード： [HOMEコード][旗]  〔kickoff〕  [旗][AWAYコード]
+  const row = block.addStack();
   row.centerAlignContent();
-  const t = row.addText("⚽ WC 2026");
-  t.font = Font.boldSystemFont(11);
-  t.textColor = COLORS.sub;
+
+  await teamSide(row, m.home, sz, true);
+
   row.addSpacer();
-  const u = row.addText(fmtDateShort(data.updated) + " 更新");
-  u.font = Font.systemFont(8);
-  u.textColor = COLORS.sub;
+  const ko = row.addText(m.status === "live" ? "LIVE" : fmtTime(m.date));
+  ko.font = Font.boldSystemFont(sz.time);
+  ko.textColor = m.status === "live" ? new Color("#e4002b") : C.time;
+  row.addSpacer();
+
+  await teamSide(row, m.away, sz, false);
 }
 
-// 1試合分の行（フラグ・名前・スコア）
-async function matchRow(container, m, opts = {}) {
-  const { compact = false } = opts;
-  const row = container.addStack();
-  row.centerAlignContent();
-
-  // ステータスバッジ / キックオフ
-  const meta = row.addStack();
-  meta.layoutVertically();
-  meta.size = new Size(compact ? 52 : 64, 0);
-  if (m.status === "live") {
-    const b = meta.addText("● LIVE");
-    b.font = Font.boldSystemFont(9);
-    b.textColor = COLORS.live;
-  } else if (m.status === "finished") {
-    const b = meta.addText("終了");
-    b.font = Font.systemFont(9);
-    b.textColor = COLORS.sub;
-  } else {
-    const b = meta.addText(fmtKickoff(m.date));
-    b.font = Font.systemFont(9);
-    b.textColor = COLORS.sub;
-  }
-  if (m.group) {
-    const g = meta.addText(m.group);
-    g.font = Font.systemFont(8);
-    g.textColor = COLORS.sub;
-    g.lineLimit = 1;
-  }
-
-  row.addSpacer(6);
-
-  // 対戦カード（縦に Home / Away）
-  const teams = row.addStack();
-  teams.layoutVertically();
-  teams.spacing = 2;
-  await teamLine(teams, m.home, m, true, compact);
-  await teamLine(teams, m.away, m, false, compact);
-
-  return row;
-}
-
-async function teamLine(container, t, m, isHome, compact) {
-  const line = container.addStack();
-  line.centerAlignContent();
-
+async function teamSide(row, t, sz, isHome) {
+  const code = (t.code || t.name || "TBD").toString().toUpperCase().slice(0, 3);
   const flag = await loadFlag(t.flag);
+
+  if (isHome) {
+    const label = row.addText(code);
+    label.font = Font.boldSystemFont(sz.code);
+    label.textColor = C.text;
+    label.lineLimit = 1;
+    row.addSpacer(sz.flagGap);
+    addFlag(row, flag, sz);
+  } else {
+    addFlag(row, flag, sz);
+    row.addSpacer(sz.flagGap);
+    const label = row.addText(code);
+    label.font = Font.boldSystemFont(sz.code);
+    label.textColor = C.text;
+    label.lineLimit = 1;
+  }
+}
+
+function addFlag(row, flag, sz) {
   if (flag) {
-    const img = line.addImage(flag);
-    img.imageSize = new Size(16, 11);
-    img.cornerRadius = 1;
-    line.addSpacer(5);
+    const img = row.addImage(flag);
+    img.imageSize = new Size(sz.flagW, sz.flagH);
+    img.cornerRadius = 3;
+    img.borderWidth = 1;
+    img.borderColor = C.flagBorder;
+  } else {
+    const ph = row.addText("■");
+    ph.font = Font.systemFont(sz.code);
+    ph.textColor = C.divider;
   }
+}
 
-  const name = line.addText(t.name);
-  name.font = Font.mediumSystemFont(compact ? 11 : 12);
-  name.textColor = COLORS.text;
-  name.lineLimit = 1;
-
+function divider(w, sz) {
+  w.addSpacer(sz.blockGap);
+  const line = w.addStack();
+  line.backgroundColor = C.divider;
+  line.size = new Size(0, 1);
   line.addSpacer();
-
-  const hasScore = t.score != null;
-  if (hasScore) {
-    const won =
-      m.status !== "upcoming" &&
-      ((isHome && m.home.score > m.away.score) ||
-        (!isHome && m.away.score > m.home.score));
-    const s = line.addText(String(t.score));
-    s.font = Font.boldSystemFont(compact ? 12 : 14);
-    s.textColor = won ? COLORS.win : COLORS.text;
-  }
+  w.addSpacer(sz.blockGap);
 }
 
-// --- 小ウィジェット: 次の試合だけ ---
-async function renderSmall(w, data, picked) {
-  headerRow(w, data);
-  w.addSpacer(6);
-  const m = picked.next;
-  if (!m) {
-    const t = w.addText("予定された試合はありません");
-    t.font = Font.systemFont(11);
-    t.textColor = COLORS.sub;
-    return;
+// ----- サイズ別パラメータ -----
+function sizeParams(family) {
+  if (family === "small") {
+    return { date: 9, time: 16, code: 14, flagW: 24, flagH: 16, flagGap: 5, gap: 4, blockGap: 7, pad: 12 };
   }
-  const label = w.addText(m.status === "live" ? "試合中" : "次の試合");
-  label.font = Font.boldSystemFont(10);
-  label.textColor = m.status === "live" ? COLORS.live : COLORS.sub;
-  w.addSpacer(4);
-  await matchRow(w, m, { compact: true });
-  w.addSpacer();
-  if (m.stadium) {
-    const st = w.addText("📍 " + m.stadium);
-    st.font = Font.systemFont(8);
-    st.textColor = COLORS.sub;
-    st.lineLimit = 1;
-  }
-}
-
-// --- 中ウィジェット: 次の試合 + 直近の結果2件 ---
-async function renderMedium(w, data, picked) {
-  headerRow(w, data);
-  w.addSpacer(4);
-
-  if (picked.next) {
-    const label = w.addText(picked.next.status === "live" ? "試合中" : "次の試合");
-    label.font = Font.boldSystemFont(10);
-    label.textColor = picked.next.status === "live" ? COLORS.live : COLORS.sub;
-    w.addSpacer(2);
-    await matchRow(w, picked.next);
-  }
-
-  if (picked.recent.length) {
-    w.addSpacer(6);
-    const label = w.addText("直近の結果");
-    label.font = Font.boldSystemFont(10);
-    label.textColor = COLORS.sub;
-    w.addSpacer(2);
-    for (const m of picked.recent.slice(0, 2)) {
-      await matchRow(w, m, { compact: true });
-      w.addSpacer(2);
-    }
-  }
-}
-
-// --- 大ウィジェット: 直近の結果 + これからの試合 ---
-async function renderLarge(w, data, picked) {
-  headerRow(w, data);
-  w.addSpacer(4);
-
-  const label1 = w.addText("直近の結果");
-  label1.font = Font.boldSystemFont(11);
-  label1.textColor = COLORS.sub;
-  w.addSpacer(3);
-  for (const m of picked.recent.slice(0, 4)) {
-    await matchRow(w, m, { compact: true });
-    w.addSpacer(3);
-  }
-
-  w.addSpacer(6);
-  const label2 = w.addText("これからの試合");
-  label2.font = Font.boldSystemFont(11);
-  label2.textColor = COLORS.sub;
-  w.addSpacer(3);
-  const up = [...picked.live, ...picked.upcoming].slice(0, 4);
-  for (const m of up) {
-    await matchRow(w, m, { compact: true });
-    w.addSpacer(3);
-  }
+  // medium / large
+  return { date: 11, time: 20, code: 18, flagW: 30, flagH: 20, flagGap: 7, gap: 6, blockGap: 12, pad: 16 };
 }
 
 // ===================================================================
 // メイン
 // ===================================================================
 async function main() {
+  const family = config.widgetFamily || "medium";
+  const sz = sizeParams(family);
+
   const w = new ListWidget();
-  w.setPadding(12, 12, 12, 12);
-  gradientBg(w);
+  w.backgroundColor = C.bg;
+  w.setPadding(sz.pad, sz.pad, sz.pad, sz.pad);
 
   let data;
   try {
@@ -270,32 +174,37 @@ async function main() {
   } catch (e) {
     const t = w.addText("データを取得できませんでした");
     t.font = Font.systemFont(12);
-    t.textColor = COLORS.text;
-    const e2 = w.addText(String(e.message || e));
-    e2.font = Font.systemFont(9);
-    e2.textColor = COLORS.sub;
+    t.textColor = C.text;
     return finish(w);
   }
 
-  const picked = pickMatches(data);
-  const family = config.widgetFamily || "medium";
+  const matches = pickNext(data);
+  if (matches.length === 0) {
+    w.addSpacer();
+    const r = w.addStack();
+    r.addSpacer();
+    const t = r.addText("予定された試合はありません");
+    t.font = Font.systemFont(13);
+    t.textColor = C.sub;
+    r.addSpacer();
+    w.addSpacer();
+    return finish(w);
+  }
 
-  if (family === "small") await renderSmall(w, data, picked);
-  else if (family === "large") await renderLarge(w, data, picked);
-  else await renderMedium(w, data, picked);
+  w.addSpacer();
+  for (let i = 0; i < matches.length; i++) {
+    await drawMatch(w, matches[i], sz);
+    if (i < matches.length - 1) divider(w, sz);
+  }
+  w.addSpacer();
 
-  // 次の更新目安（15分後）
   w.refreshAfterDate = new Date(Date.now() + 15 * 60 * 1000);
   return finish(w);
 }
 
 function finish(w) {
-  if (config.runsInWidget) {
-    Script.setWidget(w);
-  } else {
-    // アプリ内で実行したときはプレビュー表示
-    w.presentMedium();
-  }
+  if (config.runsInWidget) Script.setWidget(w);
+  else w.presentMedium();
   Script.complete();
 }
 

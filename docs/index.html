@@ -3,107 +3,103 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FIFA World Cup 2026 — 日程・結果</title>
+    <title>FIFA WC2026 — 次の2試合ウィジェット プレビュー</title>
     <style>
-      :root { color-scheme: dark; }
+      :root { color-scheme: light; }
       body {
         margin: 0;
-        font-family: -apple-system, "Hiragino Sans", "Segoe UI", system-ui, sans-serif;
-        background: linear-gradient(160deg, #0b3d2e, #061712);
-        color: #fff;
-        padding: 16px;
-      }
-      h1 { font-size: 18px; margin: 0 0 2px; }
-      .meta { color: #9fd9bf; font-size: 12px; margin-bottom: 16px; }
-      .day { color: #9fd9bf; font-size: 13px; font-weight: 700; margin: 18px 0 6px; }
-      .match {
-        display: grid;
-        grid-template-columns: 64px 1fr auto;
-        gap: 8px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        padding: 8px 10px;
-        background: rgba(255, 255, 255, 0.04);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 10px;
-        margin-bottom: 6px;
+        justify-content: center;
+        gap: 18px;
+        background: #e9eaee;
+        font-family: -apple-system, "Hiragino Sans", "Segoe UI", system-ui, sans-serif;
+        padding: 24px;
       }
-      .status { font-size: 11px; color: #9fd9bf; }
-      .status.live { color: #ff4d4d; font-weight: 700; }
-      .teams { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-      .team { display: flex; align-items: center; gap: 6px; }
-      .team img { width: 18px; height: 12px; border-radius: 2px; }
-      .team .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-      .score { font-weight: 800; font-size: 16px; text-align: right; min-width: 28px; }
-      .win { color: #ffd54a; }
-      .group { color: #9fd9bf; font-size: 10px; }
-      a.raw { color: #9fd9bf; font-size: 12px; }
+      .label { color: #6b6b76; font-size: 12px; }
+
+      /* iOS 中サイズウィジェット相当のカード */
+      .widget {
+        width: 338px;
+        background: #ffffff;
+        border-radius: 22px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+      }
+      .match { display: flex; flex-direction: column; gap: 6px; }
+      .date { text-align: center; font-size: 11px; font-weight: 600; color: #8a8a94; }
+      .date.live { color: #e4002b; }
+      .row { display: flex; align-items: center; }
+      .side { display: flex; align-items: center; gap: 7px; }
+      .side.away { flex-direction: row; }
+      .code { font-size: 18px; font-weight: 800; color: #15151e; letter-spacing: 0.5px; }
+      .flag {
+        width: 30px; height: 20px; border-radius: 3px;
+        border: 1px solid rgba(0, 0, 0, 0.08); object-fit: cover; display: block;
+      }
+      .spacer { flex: 1; }
+      .kickoff { font-size: 20px; font-weight: 800; color: #15151e; padding: 0 10px; }
+      .kickoff.live { color: #e4002b; }
+      .divider { height: 1px; background: #ededf1; }
+      .empty { text-align: center; color: #8a8a94; font-size: 14px; }
     </style>
   </head>
   <body>
-    <h1>⚽ FIFA World Cup 2026 — 日程・結果</h1>
-    <div class="meta" id="meta">読み込み中…</div>
-    <div id="list"></div>
-    <p><a class="raw" href="./data.json">data.json を見る</a></p>
+    <div class="label">中サイズウィジェット プレビュー（実機の Scriptable と同じ見た目）</div>
+    <div class="widget" id="widget"><div class="empty">読み込み中…</div></div>
+    <div class="label"><a href="./data.json">data.json</a></div>
 
     <script>
-      const dtf = new Intl.DateTimeFormat("ja-JP", {
-        month: "numeric", day: "numeric", weekday: "short",
-        hour: "2-digit", minute: "2-digit",
-      });
-      const dayKey = new Intl.DateTimeFormat("ja-JP", {
-        month: "long", day: "numeric", weekday: "short",
-      });
+      const SHOW = 2;
+      const dDate = new Intl.DateTimeFormat("ja-JP", { month: "numeric", day: "numeric", weekday: "short" });
+      const dTime = new Intl.DateTimeFormat("ja-JP", { hour: "2-digit", minute: "2-digit", hour12: false });
 
-      function teamHTML(t, win) {
-        const flag = t.flag ? `<img src="${t.flag}" alt="">` : "";
-        return `<div class="team">${flag}<span class="nm">${t.name}</span></div>`;
+      function code(t) {
+        return (t.code || t.name || "TBD").toString().toUpperCase().slice(0, 3);
+      }
+      function flagImg(t) {
+        return t.flag ? `<img class="flag" src="${t.flag}" alt="">` : "";
+      }
+      function matchHTML(m) {
+        const d = new Date(m.date);
+        const live = m.status === "live";
+        const ko = live ? "LIVE" : dTime.format(d);
+        const dateTxt = dDate.format(d);
+        return `
+          <div class="match">
+            <div class="date ${live ? "live" : ""}">${dateTxt}</div>
+            <div class="row">
+              <div class="side home"><span class="code">${code(m.home)}</span>${flagImg(m.home)}</div>
+              <div class="spacer"></div>
+              <div class="kickoff ${live ? "live" : ""}">${ko}</div>
+              <div class="spacer"></div>
+              <div class="side away">${flagImg(m.away)}<span class="code">${code(m.away)}</span></div>
+            </div>
+          </div>`;
       }
 
       async function main() {
         const res = await fetch("./data.json?_=" + Date.now());
         const data = await res.json();
-        document.getElementById("meta").textContent =
-          `${data.competition} ・ 全${data.count}試合 ・ 更新 ${dtf.format(new Date(data.updated))}`;
-
-        const list = document.getElementById("list");
-        let curDay = "";
-        for (const m of data.matches) {
-          const d = new Date(m.date);
-          const dk = dayKey.format(d);
-          if (dk !== curDay) {
-            curDay = dk;
-            const h = document.createElement("div");
-            h.className = "day";
-            h.textContent = dk;
-            list.appendChild(h);
-          }
-          const statusTxt =
-            m.status === "live" ? "● LIVE"
-            : m.status === "finished" ? "終了"
-            : dtf.format(d);
-          const hWin = m.home.score != null && m.away.score != null && m.home.score > m.away.score;
-          const aWin = m.home.score != null && m.away.score != null && m.away.score > m.home.score;
-          const sc = (s, win) => s == null ? "" : `<div class="score ${win ? "win" : ""}">${s}</div>`;
-          const el = document.createElement("div");
-          el.className = "match";
-          el.innerHTML = `
-            <div>
-              <div class="status ${m.status === "live" ? "live" : ""}">${statusTxt}</div>
-              <div class="group">${m.group || m.stage || ""}</div>
-            </div>
-            <div class="teams">
-              ${teamHTML(m.home)}
-              ${teamHTML(m.away)}
-            </div>
-            <div>
-              ${sc(m.home.score, hWin)}
-              ${sc(m.away.score, aWin)}
-            </div>`;
-          list.appendChild(el);
+        const next = (data.matches || [])
+          .filter((m) => m.status === "live" || m.status === "upcoming")
+          .slice(0, SHOW);
+        const el = document.getElementById("widget");
+        if (!next.length) {
+          el.innerHTML = '<div class="empty">予定された試合はありません</div>';
+          return;
         }
+        el.innerHTML = next.map(matchHTML).join('<div class="divider"></div>');
       }
       main().catch((e) => {
-        document.getElementById("meta").textContent = "読み込みに失敗しました: " + e.message;
+        document.getElementById("widget").innerHTML =
+          '<div class="empty">読み込みに失敗: ' + e.message + "</div>";
       });
     </script>
   </body>
