@@ -94,8 +94,12 @@
       async function main() {
         const res = await fetch("./data.json?_=" + Date.now());
         const data = await res.json();
+        const now = Date.now();
+        const MATCH_MAX_MS = 2.5 * 60 * 60 * 1000; // 開始から2.5h超は終了扱い
         const next = (data.matches || [])
           .filter((m) => m.status === "live" || m.status === "upcoming")
+          .filter((m) => new Date(m.date).getTime() > now - MATCH_MAX_MS)
+          .sort((a, b) => new Date(a.date) - new Date(b.date))
           .slice(0, SHOW);
         const el = document.getElementById("widget");
         if (!next.length) {

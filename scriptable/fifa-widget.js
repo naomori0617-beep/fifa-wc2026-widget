@@ -33,7 +33,8 @@ const cachePath = fm.joinPath(fm.cacheDirectory(), "fifa_wc2026.json");
 
 async function loadData() {
   try {
-    const req = new Request(DATA_URL);
+    // クエリを付けて GitHub Pages の CDN キャッシュを回避し、常に最新を取得
+    const req = new Request(`${DATA_URL}?t=${Date.now()}`);
     req.timeoutInterval = 10;
     const data = await req.loadJSON();
     fm.writeString(cachePath, JSON.stringify(data));
@@ -75,9 +76,16 @@ function metaText(m) {
   return [m.stage, m.group, venue].filter(Boolean).join(" ・ ");
 }
 
+// 試合は最長でも約2.5時間とみなす。これより前にキックオフした試合は
+// （データが古くて status が live/upcoming のままでも）終了扱いで除外する
+const MATCH_MAX_MS = 2.5 * 60 * 60 * 1000;
+
 function pickNext(data) {
+  const now = Date.now();
   return (data.matches || [])
     .filter((m) => m.status === "live" || m.status === "upcoming")
+    .filter((m) => new Date(m.date).getTime() > now - MATCH_MAX_MS)
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
     .slice(0, SHOW);
 }
 
@@ -215,7 +223,8 @@ async function main() {
   }
   w.addSpacer();
 
-  w.refreshAfterDate = new Date(Date.now() + 15 * 60 * 1000);
+  // iOS への更新ヒント（実際の更新間隔は OS が管理）。短めに設定
+  w.refreshAfterDate = new Date(Date.now() + 5 * 60 * 1000);
   return finish(w);
 }
 

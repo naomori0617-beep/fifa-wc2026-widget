@@ -1,9 +1,9 @@
 name: Update FIFA data
 
 on:
-  # 10 分ごとに自動実行（GitHub の都合で多少遅延することがあります）
+  # 5 分ごと（GitHub の cron 最短間隔）。各実行内でさらにループして約1分間隔で取得する
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
   # 手動実行も可能（Actions タブの "Run workflow"）
   workflow_dispatch:
 
@@ -11,7 +11,7 @@ on:
 permissions:
   contents: write
 
-# 同時実行を抑止（前の実行が終わるまで重ねない）
+# 実行が重ならないように直列化
 concurrency:
   group: update-data
   cancel-in-progress: false
@@ -26,17 +26,19 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch FIFA data
-        run: node scripts/fetch.mjs
-
-      - name: Commit if changed
+      - name: Fetch & commit every ~60s for ~4 min
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "data: update $(date -u +%FT%TZ)"
-            git push
-          fi
+          for i in 1 2 3 4; do
+            node scripts/fetch.mjs || echo "fetch failed (attempt $i), keeping previous data"
+            git add docs/data.json
+            if git diff --staged --quiet; then
+              echo "[$i] no change"
+            else
+              git commit -m "data: update $(date -u +%FT%TZ)"
+              git pull --rebase --autostash -q origin main || true
+              git push origin main || echo "push failed (attempt $i)"
+            fi
+            if [ "$i" -lt 4 ]; then sleep 60; fi
+          done
