@@ -2,7 +2,7 @@
 // FIFA 公式 API から World Cup 2026 の全試合を取得し、ウィジェット用に整形した
 // JSON を docs/data.json へ書き出す。依存ライブラリなし（Node 18+ の標準 fetch を使用）。
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeFile, readFile, mkdir } from "node:fs/promises";
 import { dirname } from "node:path";
 
 // --- 対象大会の ID（FIFA World Cup 2026™） ---
@@ -75,8 +75,20 @@ async function main() {
     }))
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
+  // 試合内容が前回と同じなら updated を据え置く（＝ファイル不変でコミットを発生させない）。
+  // ループ実行で毎分取得しても、スコア・状態・日程が変わった時だけコミットされるようにする。
+  let updated = new Date().toISOString();
+  try {
+    const prev = JSON.parse(await readFile(OUT, "utf8"));
+    if (JSON.stringify(prev.matches) === JSON.stringify(matches)) {
+      updated = prev.updated;
+    }
+  } catch {
+    /* 初回など既存ファイルなし */
+  }
+
   const out = {
-    updated: new Date().toISOString(),
+    updated,
     competition: loc(results[0].CompetitionName) || "FIFA World Cup 2026",
     season: loc(results[0].SeasonName) || null,
     count: matches.length,
