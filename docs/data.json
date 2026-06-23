@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T07:15:07.324Z",
+  "updated": "2026-06-23T22:00:54.055Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1152,21 +1152,21 @@
       "id": "400021503",
       "date": "2026-06-23T17:00:00Z",
       "localDate": "2026-06-23T12:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ K",
       "matchday": null,
       "home": {
         "name": "ポルトガル",
         "code": "POR",
-        "score": null,
+        "score": 5,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR"
       },
       "away": {
         "name": "ウズベキスタン",
         "code": "UZB",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/UZB"
       },
       "homePens": null,
@@ -1178,21 +1178,21 @@
       "id": "400021506",
       "date": "2026-06-23T20:00:00Z",
       "localDate": "2026-06-23T16:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ L",
       "matchday": null,
       "home": {
         "name": "イングランド",
         "code": "ENG",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "away": {
         "name": "ガーナ",
         "code": "GHA",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GHA"
       },
       "homePens": null,
