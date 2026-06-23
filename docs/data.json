@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T23:52:42.982Z",
+  "updated": "2026-06-23T07:12:02.124Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1075,14 +1075,14 @@
       "date": "2026-06-22T21:00:00Z",
       "localDate": "2026-06-22T17:00:00Z",
       "status": "finished",
-      "matchStatusRaw": 11,
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ I",
       "matchday": null,
       "home": {
         "name": "フランス",
         "code": "FRA",
-        "score": 1,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "away": {
@@ -1100,21 +1100,21 @@
       "id": "400021491",
       "date": "2026-06-23T00:00:00Z",
       "localDate": "2026-06-22T20:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ I",
       "matchday": null,
       "home": {
         "name": "ノルウェー",
         "code": "NOR",
-        "score": null,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
       },
       "away": {
         "name": "セネガル",
         "code": "SEN",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SEN"
       },
       "homePens": null,
@@ -1126,21 +1126,21 @@
       "id": "400021499",
       "date": "2026-06-23T03:00:00Z",
       "localDate": "2026-06-22T20:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ J",
       "matchday": null,
       "home": {
         "name": "ヨルダン",
         "code": "JOR",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/JOR"
       },
       "away": {
         "name": "アルジェリア",
         "code": "ALG",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ALG"
       },
       "homePens": null,
@@ -2250,10 +2250,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "アルゼンチン",
+        "code": "ARG",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
       },
       "away": {
         "name": "未定",
