@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T10:28:33.447Z",
+  "updated": "2026-06-24T22:03:51.408Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1256,21 +1256,21 @@
       "id": "400021448",
       "date": "2026-06-24T19:00:00Z",
       "localDate": "2026-06-24T12:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ B",
       "matchday": null,
       "home": {
         "name": "ボスニア・ヘルツェゴビナ",
         "code": "BIH",
-        "score": null,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BIH"
       },
       "away": {
         "name": "カタール",
         "code": "QAT",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/QAT"
       },
       "homePens": null,
@@ -1282,21 +1282,21 @@
       "id": "400021451",
       "date": "2026-06-24T19:00:00Z",
       "localDate": "2026-06-24T12:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ B",
       "matchday": null,
       "home": {
         "name": "スイス",
         "code": "SUI",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI"
       },
       "away": {
         "name": "カナダ",
         "code": "CAN",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
       },
       "homePens": null,
@@ -1308,21 +1308,21 @@
       "id": "400021452",
       "date": "2026-06-24T22:00:00Z",
       "localDate": "2026-06-24T18:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "1st ステージ",
       "group": "グループ C",
       "matchday": null,
       "home": {
         "name": "モロッコ",
         "code": "MAR",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
       },
       "away": {
         "name": "ハイチ",
         "code": "HAI",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI"
       },
       "homePens": null,
@@ -1334,21 +1334,21 @@
       "id": "400021455",
       "date": "2026-06-24T22:00:00Z",
       "localDate": "2026-06-24T18:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "1st ステージ",
       "group": "グループ C",
       "matchday": null,
       "home": {
         "name": "スコットランド",
         "code": "SCO",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SCO"
       },
       "away": {
         "name": "ブラジル",
         "code": "BRA",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
       },
       "homePens": null,
@@ -1892,10 +1892,10 @@
         "flag": null
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "カナダ",
+        "code": "CAN",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
       },
       "homePens": null,
       "awayPens": null,
@@ -2198,10 +2198,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "スイス",
+        "code": "SUI",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI"
       },
       "away": {
         "name": "未定",
