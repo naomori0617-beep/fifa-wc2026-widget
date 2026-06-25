@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T22:03:51.408Z",
+  "updated": "2026-06-25T10:20:05.701Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1308,21 +1308,21 @@
       "id": "400021452",
       "date": "2026-06-24T22:00:00Z",
       "localDate": "2026-06-24T18:00:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ C",
       "matchday": null,
       "home": {
         "name": "モロッコ",
         "code": "MAR",
-        "score": 0,
+        "score": 4,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
       },
       "away": {
         "name": "ハイチ",
         "code": "HAI",
-        "score": 0,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI"
       },
       "homePens": null,
@@ -1334,8 +1334,8 @@
       "id": "400021455",
       "date": "2026-06-24T22:00:00Z",
       "localDate": "2026-06-24T18:00:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ C",
       "matchday": null,
@@ -1348,7 +1348,7 @@
       "away": {
         "name": "ブラジル",
         "code": "BRA",
-        "score": 0,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
       },
       "homePens": null,
@@ -1360,21 +1360,21 @@
       "id": "400021445",
       "date": "2026-06-25T01:00:00Z",
       "localDate": "2026-06-24T19:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ A",
       "matchday": null,
       "home": {
         "name": "南アフリカ",
         "code": "RSA",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/RSA"
       },
       "away": {
         "name": "韓国",
         "code": "KOR",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/KOR"
       },
       "homePens": null,
@@ -1386,21 +1386,21 @@
       "id": "400021444",
       "date": "2026-06-25T01:00:00Z",
       "localDate": "2026-06-24T19:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ A",
       "matchday": null,
       "home": {
         "name": "チェコ",
         "code": "CZE",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CZE"
       },
       "away": {
         "name": "メキシコ",
         "code": "MEX",
-        "score": null,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MEX"
       },
       "homePens": null,
@@ -1886,10 +1886,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "南アフリカ",
+        "code": "RSA",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/RSA"
       },
       "away": {
         "name": "カナダ",
@@ -1912,10 +1912,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "ブラジル",
+        "code": "BRA",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
       },
       "away": {
         "name": "未定",
@@ -1970,10 +1970,10 @@
         "flag": null
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "モロッコ",
+        "code": "MAR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
       },
       "homePens": null,
       "awayPens": null,
