@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T10:20:05.701Z",
+  "updated": "2026-06-25T22:58:02.299Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1412,21 +1412,21 @@
       "id": "400021468",
       "date": "2026-06-25T20:00:00Z",
       "localDate": "2026-06-25T16:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ E",
       "matchday": null,
       "home": {
         "name": "キュラソー",
         "code": "CUW",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CUW"
       },
       "away": {
         "name": "コートジボワール",
         "code": "CIV",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CIV"
       },
       "homePens": null,
@@ -1438,21 +1438,21 @@
       "id": "400021466",
       "date": "2026-06-25T20:00:00Z",
       "localDate": "2026-06-25T16:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ E",
       "matchday": null,
       "home": {
         "name": "エクアドル",
         "code": "ECU",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ECU"
       },
       "away": {
         "name": "ドイツ",
         "code": "GER",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GER"
       },
       "homePens": null,
@@ -1990,10 +1990,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "コートジボワール",
+        "code": "CIV",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CIV"
       },
       "away": {
         "name": "未定",
