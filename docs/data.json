@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T10:37:38.174Z",
+  "updated": "2026-06-26T21:50:23.847Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1568,21 +1568,21 @@
       "id": "400021493",
       "date": "2026-06-26T19:00:00Z",
       "localDate": "2026-06-26T15:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ I",
       "matchday": null,
       "home": {
         "name": "セネガル",
         "code": "SEN",
-        "score": null,
+        "score": 5,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SEN"
       },
       "away": {
         "name": "イラク",
         "code": "IRQ",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRQ"
       },
       "homePens": null,
@@ -1594,21 +1594,21 @@
       "id": "400021489",
       "date": "2026-06-26T19:00:00Z",
       "localDate": "2026-06-26T15:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ I",
       "matchday": null,
       "home": {
         "name": "ノルウェー",
         "code": "NOR",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
       },
       "away": {
         "name": "フランス",
         "code": "FRA",
-        "score": null,
+        "score": 4,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "homePens": null,
@@ -1996,10 +1996,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CIV"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "ノルウェー",
+        "code": "NOR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
       },
       "homePens": null,
       "awayPens": null,
@@ -2016,10 +2016,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "フランス",
+        "code": "FRA",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "away": {
         "name": "未定",
