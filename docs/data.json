@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T21:50:23.847Z",
+  "updated": "2026-06-27T08:09:45.383Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1620,21 +1620,21 @@
       "id": "400021484",
       "date": "2026-06-27T00:00:00Z",
       "localDate": "2026-06-26T18:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ H",
       "matchday": null,
       "home": {
         "name": "ウルグアイ",
         "code": "URU",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/URU"
       },
       "away": {
         "name": "スペイン",
         "code": "ESP",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "homePens": null,
@@ -1646,21 +1646,21 @@
       "id": "400021485",
       "date": "2026-06-27T00:00:00Z",
       "localDate": "2026-06-26T19:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ H",
       "matchday": null,
       "home": {
         "name": "カーボベルデ",
         "code": "CPV",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CPV"
       },
       "away": {
         "name": "サウジアラビア",
         "code": "KSA",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/KSA"
       },
       "homePens": null,
@@ -1672,21 +1672,21 @@
       "id": "400021481",
       "date": "2026-06-27T03:00:00Z",
       "localDate": "2026-06-26T20:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ G",
       "matchday": null,
       "home": {
         "name": "ニュージーランド",
         "code": "NZL",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NZL"
       },
       "away": {
         "name": "ベルギー",
         "code": "BEL",
-        "score": null,
+        "score": 5,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
       },
       "homePens": null,
@@ -1698,21 +1698,21 @@
       "id": "400021479",
       "date": "2026-06-27T03:00:00Z",
       "localDate": "2026-06-26T20:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ G",
       "matchday": null,
       "home": {
         "name": "エジプト",
         "code": "EGY",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/EGY"
       },
       "away": {
         "name": "イラン",
         "code": "IRN",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRN"
       },
       "homePens": null,
@@ -1944,10 +1944,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GER"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "パラグアイ",
+        "code": "PAR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAR"
       },
       "homePens": null,
       "awayPens": null,
@@ -2022,10 +2022,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "スウェーデン",
+        "code": "SWE",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SWE"
       },
       "homePens": null,
       "awayPens": null,
@@ -2094,10 +2094,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "ベルギー",
+        "code": "BEL",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
       },
       "away": {
         "name": "未定",
@@ -2146,10 +2146,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "スペイン",
+        "code": "ESP",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "away": {
         "name": "未定",
@@ -2230,10 +2230,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUS"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "エジプト",
+        "code": "EGY",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/EGY"
       },
       "homePens": null,
       "awayPens": null,
@@ -2256,10 +2256,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "カーボベルデ",
+        "code": "CPV",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CPV"
       },
       "homePens": null,
       "awayPens": null,
