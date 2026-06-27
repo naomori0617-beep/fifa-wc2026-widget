@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T08:09:45.383Z",
+  "updated": "2026-06-27T23:44:18.060Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1724,21 +1724,21 @@
       "id": "400021508",
       "date": "2026-06-27T21:00:00Z",
       "localDate": "2026-06-27T17:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ L",
       "matchday": null,
       "home": {
         "name": "パナマ",
         "code": "PAN",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAN"
       },
       "away": {
         "name": "イングランド",
         "code": "ENG",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "homePens": null,
@@ -1750,21 +1750,21 @@
       "id": "400021509",
       "date": "2026-06-27T21:00:00Z",
       "localDate": "2026-06-27T17:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ L",
       "matchday": null,
       "home": {
         "name": "クロアチア",
         "code": "CRO",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CRO"
       },
       "away": {
         "name": "ガーナ",
         "code": "GHA",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GHA"
       },
       "homePens": null,
@@ -1776,21 +1776,21 @@
       "id": "400021500",
       "date": "2026-06-27T23:30:00Z",
       "localDate": "2026-06-27T19:30:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "1st ステージ",
       "group": "グループ K",
       "matchday": null,
       "home": {
         "name": "コンゴ",
         "code": "COD",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COD"
       },
       "away": {
         "name": "ウズベキスタン",
         "code": "UZB",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/UZB"
       },
       "homePens": null,
@@ -1802,21 +1802,21 @@
       "id": "400021505",
       "date": "2026-06-27T23:30:00Z",
       "localDate": "2026-06-27T19:30:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "1st ステージ",
       "group": "グループ K",
       "matchday": null,
       "home": {
         "name": "コロンビア",
         "code": "COL",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COL"
       },
       "away": {
         "name": "ポルトガル",
         "code": "POR",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR"
       },
       "homePens": null,
@@ -2048,10 +2048,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MEX"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "エクアドル",
+        "code": "ECU",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ECU"
       },
       "homePens": null,
       "awayPens": null,
@@ -2068,10 +2068,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "イングランド",
+        "code": "ENG",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "away": {
         "name": "未定",
@@ -2178,10 +2178,10 @@
         "flag": null
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "クロアチア",
+        "code": "CRO",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CRO"
       },
       "homePens": null,
       "awayPens": null,
@@ -2282,10 +2282,10 @@
         "flag": null
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "ガーナ",
+        "code": "GHA",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GHA"
       },
       "homePens": null,
       "awayPens": null,
