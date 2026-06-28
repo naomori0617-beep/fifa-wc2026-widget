@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T23:44:18.060Z",
+  "updated": "2026-06-28T10:11:33.078Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1776,15 +1776,15 @@
       "id": "400021500",
       "date": "2026-06-27T23:30:00Z",
       "localDate": "2026-06-27T19:30:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ K",
       "matchday": null,
       "home": {
         "name": "コンゴ",
         "code": "COD",
-        "score": 0,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COD"
       },
       "away": {
@@ -1802,8 +1802,8 @@
       "id": "400021505",
       "date": "2026-06-27T23:30:00Z",
       "localDate": "2026-06-27T19:30:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ K",
       "matchday": null,
@@ -1828,21 +1828,21 @@
       "id": "400021497",
       "date": "2026-06-28T02:00:00Z",
       "localDate": "2026-06-27T21:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ J",
       "matchday": null,
       "home": {
         "name": "アルジェリア",
         "code": "ALG",
-        "score": null,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ALG"
       },
       "away": {
         "name": "オーストリア",
         "code": "AUT",
-        "score": null,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUT"
       },
       "homePens": null,
@@ -1854,21 +1854,21 @@
       "id": "400021495",
       "date": "2026-06-28T02:00:00Z",
       "localDate": "2026-06-27T21:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "1st ステージ",
       "group": "グループ J",
       "matchday": null,
       "home": {
         "name": "ヨルダン",
         "code": "JOR",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/JOR"
       },
       "away": {
         "name": "アルゼンチン",
         "code": "ARG",
-        "score": null,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
       },
       "homePens": null,
@@ -2074,10 +2074,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "コンゴ",
+        "code": "COD",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COD"
       },
       "homePens": null,
       "awayPens": null,
@@ -2100,10 +2100,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "セネガル",
+        "code": "SEN",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SEN"
       },
       "homePens": null,
       "awayPens": null,
@@ -2152,10 +2152,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "オーストリア",
+        "code": "AUT",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUT"
       },
       "homePens": null,
       "awayPens": null,
@@ -2172,10 +2172,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "ポルトガル",
+        "code": "POR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR"
       },
       "away": {
         "name": "クロアチア",
@@ -2204,10 +2204,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "アルジェリア",
+        "code": "ALG",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ALG"
       },
       "homePens": null,
       "awayPens": null,
@@ -2276,10 +2276,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "コロンビア",
+        "code": "COL",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COL"
       },
       "away": {
         "name": "ガーナ",
