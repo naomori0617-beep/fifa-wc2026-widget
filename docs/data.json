@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T19:57:09.287Z",
+  "updated": "2026-06-28T23:47:26.380Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1880,8 +1880,8 @@
       "id": "400021518",
       "date": "2026-06-28T19:00:00Z",
       "localDate": "2026-06-28T12:00:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
@@ -1894,7 +1894,7 @@
       "away": {
         "name": "カナダ",
         "code": "CAN",
-        "score": 0,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
       },
       "homePens": null,
@@ -2302,10 +2302,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "カナダ",
+        "code": "CAN",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
       },
       "away": {
         "name": "未定",
