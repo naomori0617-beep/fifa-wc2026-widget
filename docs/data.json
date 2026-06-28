@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T10:11:33.078Z",
+  "updated": "2026-06-28T19:57:09.287Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1880,21 +1880,21 @@
       "id": "400021518",
       "date": "2026-06-28T19:00:00Z",
       "localDate": "2026-06-28T12:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "南アフリカ",
         "code": "RSA",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/RSA"
       },
       "away": {
         "name": "カナダ",
         "code": "CAN",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
       },
       "homePens": null,
