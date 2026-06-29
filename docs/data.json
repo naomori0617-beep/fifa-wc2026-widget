@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T23:47:26.380Z",
+  "updated": "2026-06-29T20:58:28.035Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1906,21 +1906,21 @@
       "id": "400021516",
       "date": "2026-06-29T17:00:00Z",
       "localDate": "2026-06-29T12:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "ブラジル",
         "code": "BRA",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
       },
       "away": {
         "name": "日本",
         "code": "JPN",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/JPN"
       },
       "homePens": null,
@@ -1932,21 +1932,21 @@
       "id": "400021513",
       "date": "2026-06-29T20:30:00Z",
       "localDate": "2026-06-29T16:30:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "ドイツ",
         "code": "GER",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GER"
       },
       "away": {
         "name": "パラグアイ",
         "code": "PAR",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAR"
       },
       "homePens": null,
@@ -2354,10 +2354,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "ブラジル",
+        "code": "BRA",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
       },
       "away": {
         "name": "未定",
