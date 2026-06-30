@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T08:45:34.950Z",
+  "updated": "2026-06-30T22:02:06.719Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1984,21 +1984,21 @@
       "id": "400021514",
       "date": "2026-06-30T17:00:00Z",
       "localDate": "2026-06-30T12:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "コートジボワール",
         "code": "CIV",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CIV"
       },
       "away": {
         "name": "ノルウェー",
         "code": "NOR",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
       },
       "homePens": null,
@@ -2010,21 +2010,21 @@
       "id": "400021523",
       "date": "2026-06-30T21:00:00Z",
       "localDate": "2026-06-30T17:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "フランス",
         "code": "FRA",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "away": {
         "name": "スウェーデン",
         "code": "SWE",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SWE"
       },
       "homePens": null,
@@ -2360,10 +2360,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "ノルウェー",
+        "code": "NOR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
       },
       "homePens": null,
       "awayPens": null,
