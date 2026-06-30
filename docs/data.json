@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T20:58:28.035Z",
+  "updated": "2026-06-30T08:45:34.950Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -1932,25 +1932,25 @@
       "id": "400021513",
       "date": "2026-06-29T20:30:00Z",
       "localDate": "2026-06-29T16:30:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "ドイツ",
         "code": "GER",
-        "score": 0,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/GER"
       },
       "away": {
         "name": "パラグアイ",
         "code": "PAR",
-        "score": 0,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAR"
       },
-      "homePens": null,
-      "awayPens": null,
+      "homePens": 3,
+      "awayPens": 4,
       "stadium": "ボストンスタジアム",
       "city": "ボストン"
     },
@@ -1958,25 +1958,25 @@
       "id": "400021522",
       "date": "2026-06-30T01:00:00Z",
       "localDate": "2026-06-29T19:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "オランダ",
         "code": "NED",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NED"
       },
       "away": {
         "name": "モロッコ",
         "code": "MAR",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
       },
-      "homePens": null,
-      "awayPens": null,
+      "homePens": 2,
+      "awayPens": 3,
       "stadium": "モンテレースタジアム",
       "city": "モンテレイ"
     },
@@ -2308,10 +2308,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "モロッコ",
+        "code": "MAR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
       },
       "homePens": null,
       "awayPens": null,
@@ -2328,10 +2328,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "パラグアイ",
+        "code": "PAR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAR"
       },
       "away": {
         "name": "未定",
