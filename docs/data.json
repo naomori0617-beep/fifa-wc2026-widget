@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T10:55:38.735Z",
+  "updated": "2026-07-01T17:33:12.980Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2062,21 +2062,21 @@
       "id": "400021512",
       "date": "2026-07-01T16:00:00Z",
       "localDate": "2026-07-01T12:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "イングランド",
         "code": "ENG",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "away": {
         "name": "コンゴ",
         "code": "COD",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/COD"
       },
       "homePens": null,
