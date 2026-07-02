@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T22:24:42.288Z",
+  "updated": "2026-07-02T09:49:14.233Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2088,15 +2088,15 @@
       "id": "400021525",
       "date": "2026-07-01T20:00:00Z",
       "localDate": "2026-07-01T13:00:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "ベルギー",
         "code": "BEL",
-        "score": 2,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
       },
       "away": {
@@ -2114,21 +2114,21 @@
       "id": "400021524",
       "date": "2026-07-02T00:00:00Z",
       "localDate": "2026-07-01T17:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "アメリカ",
         "code": "USA",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
       },
       "away": {
         "name": "ボスニア・ヘルツェゴビナ",
         "code": "BIH",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BIH"
       },
       "homePens": null,
@@ -2432,16 +2432,16 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "アメリカ",
+        "code": "USA",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "ベルギー",
+        "code": "BEL",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
       },
       "homePens": null,
       "awayPens": null,
