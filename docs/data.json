@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T08:36:46.498Z",
+  "updated": "2026-07-03T20:20:38.721Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2218,21 +2218,21 @@
       "id": "400021515",
       "date": "2026-07-03T18:00:00Z",
       "localDate": "2026-07-03T13:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "オーストラリア",
         "code": "AUS",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUS"
       },
       "away": {
         "name": "エジプト",
         "code": "EGY",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/EGY"
       },
       "homePens": null,
