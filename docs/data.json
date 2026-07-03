@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T20:43:20.320Z",
+  "updated": "2026-07-03T08:36:46.498Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2140,15 +2140,15 @@
       "id": "400021519",
       "date": "2026-07-02T19:00:00Z",
       "localDate": "2026-07-02T12:00:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "スペイン",
         "code": "ESP",
-        "score": 2,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "away": {
@@ -2166,21 +2166,21 @@
       "id": "400021526",
       "date": "2026-07-02T23:00:00Z",
       "localDate": "2026-07-02T19:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "ポルトガル",
         "code": "POR",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR"
       },
       "away": {
         "name": "クロアチア",
         "code": "CRO",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CRO"
       },
       "homePens": null,
@@ -2192,21 +2192,21 @@
       "id": "400021527",
       "date": "2026-07-03T03:00:00Z",
       "localDate": "2026-07-02T20:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "32強ラウンド",
       "group": null,
       "matchday": null,
       "home": {
         "name": "スイス",
         "code": "SUI",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI"
       },
       "away": {
         "name": "アルジェリア",
         "code": "ALG",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ALG"
       },
       "homePens": null,
@@ -2406,16 +2406,16 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "ポルトガル",
+        "code": "POR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "スペイン",
+        "code": "ESP",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "homePens": null,
       "awayPens": null,
@@ -2484,10 +2484,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "スイス",
+        "code": "SUI",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI"
       },
       "away": {
         "name": "未定",
