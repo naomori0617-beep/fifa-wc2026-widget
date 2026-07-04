@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T09:08:55.786Z",
+  "updated": "2026-07-04T20:16:58.118Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2296,21 +2296,21 @@
       "id": "400021530",
       "date": "2026-07-04T17:00:00Z",
       "localDate": "2026-07-04T12:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "16強",
       "group": null,
       "matchday": null,
       "home": {
         "name": "カナダ",
         "code": "CAN",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN"
       },
       "away": {
         "name": "モロッコ",
         "code": "MAR",
-        "score": null,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
       },
       "homePens": null,
@@ -2516,10 +2516,10 @@
         "flag": null
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "モロッコ",
+        "code": "MAR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR"
       },
       "homePens": null,
       "awayPens": null,
