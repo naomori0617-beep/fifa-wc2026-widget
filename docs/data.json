@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T20:16:58.118Z",
+  "updated": "2026-07-04T23:46:10.678Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2322,21 +2322,21 @@
       "id": "400021533",
       "date": "2026-07-04T21:00:00Z",
       "localDate": "2026-07-04T17:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "16強",
       "group": null,
       "matchday": null,
       "home": {
         "name": "パラグアイ",
         "code": "PAR",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAR"
       },
       "away": {
         "name": "フランス",
         "code": "FRA",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "homePens": null,
@@ -2510,10 +2510,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "フランス",
+        "code": "FRA",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "away": {
         "name": "モロッコ",
