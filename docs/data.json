@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T23:46:10.678Z",
+  "updated": "2026-07-05T22:14:54.845Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2348,21 +2348,21 @@
       "id": "400021532",
       "date": "2026-07-05T20:00:00Z",
       "localDate": "2026-07-05T16:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "16強",
       "group": null,
       "matchday": null,
       "home": {
         "name": "ブラジル",
         "code": "BRA",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA"
       },
       "away": {
         "name": "ノルウェー",
         "code": "NOR",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
       },
       "homePens": null,
@@ -2562,10 +2562,10 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "未定",
-        "code": null,
+        "name": "ノルウェー",
+        "code": "NOR",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
       },
       "away": {
         "name": "未定",
