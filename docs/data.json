@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T12:31:09.388Z",
+  "updated": "2026-07-06T19:17:38.423Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2400,21 +2400,21 @@
       "id": "400021529",
       "date": "2026-07-06T19:00:00Z",
       "localDate": "2026-07-06T14:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "16強",
       "group": null,
       "matchday": null,
       "home": {
         "name": "ポルトガル",
         "code": "POR",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR"
       },
       "away": {
         "name": "スペイン",
         "code": "ESP",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "homePens": null,
