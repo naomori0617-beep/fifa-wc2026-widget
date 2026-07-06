@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T22:14:54.845Z",
+  "updated": "2026-07-06T12:31:09.388Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2372,23 +2372,23 @@
     },
     {
       "id": "400021531",
-      "date": "2026-07-06T00:00:00Z",
-      "localDate": "2026-07-05T18:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "date": "2026-07-06T01:00:00Z",
+      "localDate": "2026-07-05T19:00:00Z",
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "16強",
       "group": null,
       "matchday": null,
       "home": {
         "name": "メキシコ",
         "code": "MEX",
-        "score": null,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/MEX"
       },
       "away": {
         "name": "イングランド",
         "code": "ENG",
-        "score": null,
+        "score": 3,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "homePens": null,
@@ -2568,10 +2568,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "イングランド",
+        "code": "ENG",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "homePens": null,
       "awayPens": null,
