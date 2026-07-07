@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T22:52:23.346Z",
+  "updated": "2026-07-07T10:38:58.882Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2426,21 +2426,21 @@
       "id": "400021534",
       "date": "2026-07-07T00:00:00Z",
       "localDate": "2026-07-06T17:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "16強",
       "group": null,
       "matchday": null,
       "home": {
         "name": "アメリカ",
         "code": "USA",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
       },
       "away": {
         "name": "ベルギー",
         "code": "BEL",
-        "score": null,
+        "score": 4,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
       },
       "homePens": null,
@@ -2542,10 +2542,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "ベルギー",
+        "code": "BEL",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL"
       },
       "homePens": null,
       "awayPens": null,
