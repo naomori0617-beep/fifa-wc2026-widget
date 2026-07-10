@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T20:05:49.330Z",
+  "updated": "2026-07-10T21:15:19.827Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2530,15 +2530,15 @@
       "id": "400021538",
       "date": "2026-07-10T19:00:00Z",
       "localDate": "2026-07-10T12:00:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "準々決勝",
       "group": null,
       "matchday": null,
       "home": {
         "name": "スペイン",
         "code": "ESP",
-        "score": 1,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "away": {
@@ -2620,10 +2620,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "スペイン",
+        "code": "ESP",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "homePens": null,
       "awayPens": null,
