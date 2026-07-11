@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T21:15:19.827Z",
+  "updated": "2026-07-11T21:12:59.188Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2556,21 +2556,21 @@
       "id": "400021539",
       "date": "2026-07-11T21:00:00Z",
       "localDate": "2026-07-11T17:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "準々決勝",
       "group": null,
       "matchday": null,
       "home": {
         "name": "ノルウェー",
         "code": "NOR",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR"
       },
       "away": {
         "name": "イングランド",
         "code": "ENG",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "homePens": null,
