@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T00:01:52.573Z",
+  "updated": "2026-07-12T03:20:56.654Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2582,21 +2582,21 @@
       "id": "400021537",
       "date": "2026-07-12T01:00:00Z",
       "localDate": "2026-07-11T20:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "準々決勝",
       "group": null,
       "matchday": null,
       "home": {
         "name": "アルゼンチン",
         "code": "ARG",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
       },
       "away": {
         "name": "スイス",
         "code": "SUI",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI"
       },
       "homePens": null,
