@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T06:15:08.904Z",
+  "updated": "2026-07-14T18:51:41.038Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2662,7 +2662,7 @@
       "localDate": "2026-07-18T17:00:00Z",
       "status": "upcoming",
       "matchStatusRaw": 1,
-      "stage": "3 位決定戦プレーオフ",
+      "stage": "Bronze final",
       "group": null,
       "matchday": null,
       "home": {
