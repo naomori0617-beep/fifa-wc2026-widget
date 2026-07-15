@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T21:03:05.805Z",
+  "updated": "2026-07-15T19:49:25.792Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2634,21 +2634,21 @@
       "id": "400021540",
       "date": "2026-07-15T19:00:00Z",
       "localDate": "2026-07-15T15:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "準決勝",
       "group": null,
       "matchday": null,
       "home": {
         "name": "イングランド",
         "code": "ENG",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "away": {
         "name": "アルゼンチン",
         "code": "ARG",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
       },
       "homePens": null,
