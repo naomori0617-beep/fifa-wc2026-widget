@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T20:46:42.608Z",
+  "updated": "2026-07-15T21:38:46.088Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2634,8 +2634,8 @@
       "id": "400021540",
       "date": "2026-07-15T19:00:00Z",
       "localDate": "2026-07-15T15:00:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "準決勝",
       "group": null,
       "matchday": null,
@@ -2648,7 +2648,7 @@
       "away": {
         "name": "アルゼンチン",
         "code": "ARG",
-        "score": 1,
+        "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
       },
       "homePens": null,
@@ -2672,10 +2672,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "イングランド",
+        "code": "ENG",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "homePens": null,
       "awayPens": null,
@@ -2698,10 +2698,10 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "away": {
-        "name": "未定",
-        "code": null,
+        "name": "アルゼンチン",
+        "code": "ARG",
         "score": null,
-        "flag": null
+        "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG"
       },
       "homePens": null,
       "awayPens": null,
