@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T22:59:28.845Z",
+  "updated": "2026-07-18T23:45:21.864Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2660,8 +2660,8 @@
       "id": "400021542",
       "date": "2026-07-18T21:00:00Z",
       "localDate": "2026-07-18T17:00:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "Bronze final",
       "group": null,
       "matchday": null,
@@ -2674,7 +2674,7 @@
       "away": {
         "name": "イングランド",
         "code": "ENG",
-        "score": 5,
+        "score": 6,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "homePens": null,
