@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T22:57:27.010Z",
+  "updated": "2026-07-18T22:59:28.845Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2668,7 +2668,7 @@
       "home": {
         "name": "フランス",
         "code": "FRA",
-        "score": 3,
+        "score": 4,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "away": {
