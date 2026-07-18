@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T21:09:18.955Z",
+  "updated": "2026-07-18T22:02:57.442Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2674,7 +2674,7 @@
       "away": {
         "name": "イングランド",
         "code": "ENG",
-        "score": 1,
+        "score": 4,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "homePens": null,
