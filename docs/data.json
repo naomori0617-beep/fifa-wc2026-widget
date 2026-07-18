@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T21:38:46.088Z",
+  "updated": "2026-07-18T21:09:18.955Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2660,21 +2660,21 @@
       "id": "400021542",
       "date": "2026-07-18T21:00:00Z",
       "localDate": "2026-07-18T17:00:00Z",
-      "status": "upcoming",
-      "matchStatusRaw": 1,
+      "status": "live",
+      "matchStatusRaw": 3,
       "stage": "Bronze final",
       "group": null,
       "matchday": null,
       "home": {
         "name": "フランス",
         "code": "FRA",
-        "score": null,
+        "score": 0,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA"
       },
       "away": {
         "name": "イングランド",
         "code": "ENG",
-        "score": null,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG"
       },
       "homePens": null,
