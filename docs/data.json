@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T22:02:00.893Z",
+  "updated": "2026-07-19T22:03:02.429Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2686,8 +2686,8 @@
       "id": "400021543",
       "date": "2026-07-19T19:00:00Z",
       "localDate": "2026-07-19T15:00:00Z",
-      "status": "live",
-      "matchStatusRaw": 3,
+      "status": "finished",
+      "matchStatusRaw": 0,
       "stage": "決勝",
       "group": null,
       "matchday": null,
