@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T19:19:33.857Z",
+  "updated": "2026-07-19T22:02:00.893Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -2694,7 +2694,7 @@
       "home": {
         "name": "スペイン",
         "code": "ESP",
-        "score": 0,
+        "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP"
       },
       "away": {
