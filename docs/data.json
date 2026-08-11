@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T12:32:06.020Z",
+  "updated": "2026-08-11T12:33:08.042Z",
   "competition": "FIFA ワールドカップ™",
   "season": "FIFA ワールドカップ 2026™",
   "count": 104,
@@ -92,7 +92,7 @@
       "group": "グループ D",
       "matchday": null,
       "home": {
-        "name": "アメリカ",
+        "name": "米国",
         "code": "USA",
         "score": 4,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
@@ -742,7 +742,7 @@
       "group": "グループ D",
       "matchday": null,
       "home": {
-        "name": "アメリカ",
+        "name": "米国",
         "code": "USA",
         "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
@@ -1554,7 +1554,7 @@
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/TUR"
       },
       "away": {
-        "name": "アメリカ",
+        "name": "米国",
         "code": "USA",
         "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
@@ -2120,7 +2120,7 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "アメリカ",
+        "name": "米国",
         "code": "USA",
         "score": 2,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
@@ -2432,7 +2432,7 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "アメリカ",
+        "name": "米国",
         "code": "USA",
         "score": 1,
         "flag": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA"
